@@ -1,0 +1,726 @@
+{
+  "channels": [
+    {
+      "id": "TRT1.tr",
+      "names": [
+        "TR: TRT 1 HD"
+      ]
+    },
+    {
+      "id": "TRT1.HD.tr",
+      "names": [
+        "TR: TRT 1 FHD",
+        "TR: TRT 1 4K"
+      ]
+    },
+    {
+      "id": "STAR.TV.HD.tr",
+      "names": [
+        "TR: STAR HD",
+        "TR: STAR FHD",
+        "TR: STAR TV 4K"
+      ]
+    },
+    {
+      "id": "ATV.HD.tr",
+      "names": [
+        "TR: ATV HD",
+        "TR: ATV FHD",
+        "TR: ATV 4K"
+      ]
+    },
+    {
+      "id": "SHOW.TV.HD.tr",
+      "names": [
+        "TR: SHOW HD",
+        "TR: SHOW FHD",
+        "TR: SHOW TV 4K"
+      ]
+    },
+    {
+      "id": "KANAL.D.HD.tr",
+      "names": [
+        "TR: KANAL D HD",
+        "TR: KANAL D FHD",
+        "TR: KANAL D 4K"
+      ]
+    },
+    {
+      "id": "NOW.tr",
+      "names": [
+        "TR: NOW TV  HD",
+        "TR: NOW TV FHD",
+        "TR: NOW 4K"
+      ]
+    },
+    {
+      "id": "TV8.HD.tr",
+      "names": [
+        "TR: TV8 HD",
+        "TR: TV8 FHD",
+        "TR: TV8 4K"
+      ]
+    },
+    {
+      "id": "TV8,5.HD.tr",
+      "names": [
+        "TR: TV8.5 FHD",
+        "TR: TV8.5 4K"
+      ]
+    },
+    {
+      "id": "KANAL.7.HD.tr",
+      "names": [
+        "TR: KANAL 7 HD",
+        "TR: KANAL 7 FHD",
+        "TR: KANAL 7 4K"
+      ]
+    },
+    {
+      "id": "beIN.SPORTS.HABER.tr",
+      "names": [
+        "TR: beIN SPORTS Haber ʜᴅ"
+      ]
+    },
+    {
+      "id": "Beinsports.tr",
+      "names": [
+        "TR: beIN SPORTS 1 sᴅ (576p)⚽️",
+        "TR: beIN SPORTS 1 sᴅ Yedek (576p)",
+        "TR: beIN SPORTS 1 ʜᴅ (720P)⚽️",
+        "TR: beIN SPORTS 1 ʜᴅ Yedek (720P)",
+        "TR: beIN SPORTS 1 ʜᴅ (1080p)⚽️",
+        "TR: beIN SPORTS 1 ʜᴅ Yedek (1080p)",
+        "TR: beIN SPORTS 1 (4K FHD)⚽️",
+        "TR: beIN SPORTS 1 RAW⚽️",
+        "TR: beIN SPORTS 1 ʜᴅ 1080 50 FPS ⚽️"
+      ]
+    },
+    {
+      "id": "Beinsports.2.tr",
+      "names": [
+        "TR: beIN SPORTS 2 ʜᴅ (720p)",
+        "TR: beIN SPORTS 2 ʜᴅ (1080p)",
+        "TR:beIN SPORTS 2 ʜᴅ 1080 50 FPS"
+      ]
+    },
+    {
+      "id": "Beinsports.3.tr",
+      "names": [
+        "TR: beIN SPORTS 3 ʜᴅ (720p)",
+        "TR: beIN SPORTS 3 ʜᴅ (1080p)",
+        "TR:beIN SPORTS 3 ʜᴅ 1080 50 FPS"
+      ]
+    },
+    {
+      "id": "Beinsports.4.tr",
+      "names": [
+        "TR: beIN SPORTS 4 ʜᴅ (720p)",
+        "TR: beIN SPORTS 4 ʜᴅ (1080p)",
+        "TR:beIN SPORTS 4 ʜᴅ 1080 50 FPS"
+      ]
+    },
+    {
+      "id": "beIN.SPORTS.MAX.1.tr",
+      "names": [
+        "TR:beIN SPORTS MAX  1 ʜᴅ 1080 50 FPS"
+      ]
+    },
+    {
+      "id": "beIN.SPORTS.MAX.2.tr",
+      "names": [
+        "TR:beIN SPORTS MAX  2 ʜᴅ 1080 50 FPS"
+      ]
+    },
+    {
+      "id": "S.SPORT.tr",
+      "names": [
+        "TR: S Sport 1 ʜᴅ (720p)",
+        "TR: S Sport 1 ʜᴅ (1080p)"
+      ]
+    },
+    {
+      "id": "S.SPORT.2.tr",
+      "names": [
+        "TR: S Sport 2 ʜᴅ (1080p)"
+      ]
+    },
+    {
+      "id": "Bi.Kanal.tr",
+      "names": [
+        "TR: Bi KANAL ʜᴅ"
+      ]
+    },
+    {
+      "id": "TİVİBU.SPOR.tr",
+      "names": [
+        "TR: TIVIBU SPOR HD"
+      ]
+    },
+    {
+      "id": "TİVİBU.SPOR.1.tr",
+      "names": [
+        "TR: TIVIBU SPOR 1 HD"
+      ]
+    },
+    {
+      "id": "TİVİBU.SPOR.2.tr",
+      "names": [
+        "TR: TIVIBU SPOR 2 HD"
+      ]
+    },
+    {
+      "id": "TİVİBU.SPOR.3.tr",
+      "names": [
+        "TR: TIVIBU SPOR 3 HD"
+      ]
+    },
+    {
+      "id": "TİVİBU.SPOR.4.tr",
+      "names": [
+        "TR: TIVIBU SPOR 4 HD"
+      ]
+    },
+    {
+      "id": "EUROSPORT.1.HD.tr",
+      "names": [
+        "TR: EUROSPORT 1 HD"
+      ]
+    },
+    {
+      "id": "EUROSPORT.2.HD.tr",
+      "names": [
+        "TR: EUROSPORT 2 HD"
+      ]
+    },
+    {
+      "id": "TRT.SPOR.HD.tr",
+      "names": [
+        "TR: TRT SPOR HD",
+        "TR: TRT SPOR FHD",
+        "TR: TRT SPOR 4K"
+      ]
+    },
+    {
+      "id": "TRT.SPOR.YILDIZ.tr",
+      "names": [
+        "TR: TRT SPOR YILDIZ HD",
+        "TR: TRT SPOR YILDIZ FHD"
+      ]
+    },
+    {
+      "id": "A.SPOR.HD.tr",
+      "names": [
+        "TR: A SPOR HD",
+        "TR: A SPOR FHD",
+        "TR: A SPOR 4K"
+      ]
+    },
+    {
+      "id": "FB.TV.tr",
+      "names": [
+        "TR: FB TV"
+      ]
+    },
+    {
+      "id": "TİVİ6.tr",
+      "names": [
+        "TR: TIVI 6 HD"
+      ]
+    },
+    {
+      "id": "TV.4.tr",
+      "names": [
+        "TR: TV4 HD"
+      ]
+    },
+    {
+      "id": "SİNEMA.TV.2.HD.tr",
+      "names": [
+        "TR: SiNEMA TV 2 FHD"
+      ]
+    },
+    {
+      "id": "SİNEMA.TV.1001.HD.tr",
+      "names": [
+        "TR: SiNEMA TV 1001 FHD"
+      ]
+    },
+    {
+      "id": "SİNEMA.AİLE.HD.tr",
+      "names": [
+        "TR: SiNEMA TV AiLE FHD"
+      ]
+    },
+    {
+      "id": "SİNEMA.AİLE.2.HD.tr",
+      "names": [
+        "TR: SiNEMA TV AiLE 2 FHD"
+      ]
+    },
+    {
+      "id": "SİNEMA.TV.AKSİYON.HD.tr",
+      "names": [
+        "TR: SiNEMA TV AKSIYON FHD"
+      ]
+    },
+    {
+      "id": "SİNEMA.AKSİYON.2.HD.tr",
+      "names": [
+        "TR: SiNEMA TV AKSIYON 2 FHD"
+      ]
+    },
+    {
+      "id": "SİNEMA.KOMEDİ.HD.tr",
+      "names": [
+        "TR: SiNEMA TV KOMEDi FHD"
+      ]
+    },
+    {
+      "id": "SİNEMA.1002.HD.tr",
+      "names": [
+        "TR: SiNEMA TV 1002 FHD"
+      ]
+    },
+    {
+      "id": "EPIC.DRAMA.tr",
+      "names": [
+        "TR: EPIC DRAMA HD"
+      ]
+    },
+    {
+      "id": "FX.HD.tr",
+      "names": [
+        "TR: FX HD"
+      ]
+    },
+    {
+      "id": "TEVE2.HD.tr",
+      "names": [
+        "TR: TEVE 2 HD",
+        "TR: TEVE 2 FHD"
+      ]
+    },
+    {
+      "id": "TRT.HABER.HD.tr",
+      "names": [
+        "TR: TRT HABER HD",
+        "TR: TRT HABER FHD"
+      ]
+    },
+    {
+      "id": "HABERTÜRK.HD.tr",
+      "names": [
+        "TR: HABER TURK HD",
+        "TR: HABER TURK FHD"
+      ]
+    },
+    {
+      "id": "CNN.TÜRK.HD.tr",
+      "names": [
+        "TR: CNN TURK HD",
+        "TR: CNN TURK FHD"
+      ]
+    },
+    {
+      "id": "A.HABER.HD.tr",
+      "names": [
+        "TR: A HABER HD",
+        "TR: A HABER FHD"
+      ]
+    },
+    {
+      "id": "TRT.World.HD.tr",
+      "names": [
+        "TR: TRT WORLD HD"
+      ]
+    },
+    {
+      "id": "ÜLKE.TV.HD.tr",
+      "names": [
+        "TR: ULKE TV HD"
+      ]
+    },
+    {
+      "id": "NTV.HD.tr",
+      "names": [
+        "TR: NTV HD"
+      ]
+    },
+    {
+      "id": "A2.HD.tr",
+      "names": [
+        "TR: A2 FHD",
+        "TR: A2 HD"
+      ]
+    },
+    {
+      "id": "24.HD.tr",
+      "names": [
+        "TR: 24 TV HD",
+        "TR: 24 TV FHD"
+      ]
+    },
+    {
+      "id": "360.HD.tr",
+      "names": [
+        "TR: 360 HD",
+        "TR: 360 4K"
+      ]
+    },
+    {
+      "id": "HABER.GLOBAL.HD.tr",
+      "names": [
+        "TR: HABER GLOBAL HD"
+      ]
+    },
+    {
+      "id": "TGRT.HABER.HD.tr",
+      "names": [
+        "TR: TGRT HABER HD"
+      ]
+    },
+    {
+      "id": "TELE1.tr",
+      "names": [
+        "TR: TELE 1 HD",
+        "TR: TELE 1 FHD"
+      ]
+    },
+    {
+      "id": "BLOOMBERG.HT.HD.tr",
+      "names": [
+        "TR: Bloomberg HT HD"
+      ]
+    },
+    {
+      "id": "FLASH.HABER.tr",
+      "names": [
+        "TR: FLASH TV FHD"
+      ]
+    },
+    {
+      "id": "TVNET.HD.tr",
+      "names": [
+        "TR: TVNET HD"
+      ]
+    },
+    {
+      "id": "BEYAZ.TV.HD.tr",
+      "names": [
+        "TR: BEYAZ TV HD",
+        "TR: BEYAZ TV FHD",
+        "TR: BEYAZ TV 4K"
+      ]
+    },
+    {
+      "id": "KRT.TV.tr",
+      "names": [
+        "TR: KRT TV HD"
+      ]
+    },
+    {
+      "id": "SÖZCÜ.TV.tr",
+      "names": [
+        "TR: SOZCU TV HD",
+        "TR: SOZCU TV FHD"
+      ]
+    },
+    {
+      "id": "HALK.TV.tr",
+      "names": [
+        "TR: HALK TV HD",
+        "TR: HALK TV FHD"
+      ]
+    },
+    {
+      "id": "TV100.tr",
+      "names": [
+        "TR: TV 100 HD",
+        "TR: TV 100 FHD"
+      ]
+    },
+    {
+      "id": "ULUSAL.KANAL.tr",
+      "names": [
+        "TR: Ulusal Kanal HD"
+      ]
+    },
+    {
+      "id": "NATIONAL.GEOGRAPHIC.HD.tr",
+      "names": [
+        "TR: NAT GEO HD",
+        "TR: NAT GEO FHD"
+      ]
+    },
+    {
+      "id": "NATIONAL.GEOGRAPHIC.WILD.HD.tr",
+      "names": [
+        "TR: NAT GEO WILD HD",
+        "TR: NAT GEO WILD FHD"
+      ]
+    },
+    {
+      "id": "DISCOVERY.CHANNEL.HD.tr",
+      "names": [
+        "TR: DISCOVERY CHANNEL HD",
+        "TR: DISCOVERY CHANNEL FHD"
+      ]
+    },
+    {
+      "id": "TRT.BELGESEL.HD.tr",
+      "names": [
+        "TR: TRT BELGESEL FHD",
+        "TR: TRT Belgesel HD"
+      ]
+    },
+    {
+      "id": "KABLO.INFO.tr",
+      "names": [
+        "TR: IDX DISCOVERY HD"
+      ]
+    },
+    {
+      "id": "LOVE.NATURE.HD.tr",
+      "names": [
+        "TR: LOVE NATURE HD"
+      ]
+    },
+    {
+      "id": "TLC.tr",
+      "names": [
+        "TR: TLC HD"
+      ]
+    },
+    {
+      "id": "DMAX.HD.tr",
+      "names": [
+        "TR: DMAX HD"
+      ]
+    },
+    {
+      "id": "BBC.EARTH.tr",
+      "names": [
+        "TR: BBC EARTH HD"
+      ]
+    },
+    {
+      "id": "TRT Belgesel HD (390)",
+      "names": [
+        "TR: TGRT BELGESEL HD"
+      ]
+    },
+    {
+      "id": "TARIM.TV.tr",
+      "names": [
+        "TR: TARIM TV HD"
+      ]
+    },
+    {
+      "id": "TARIH.TV.tr",
+      "names": [
+        "TR: TARIH TV HD"
+      ]
+    },
+    {
+      "id": "TRT.TÜRK.tr",
+      "names": [
+        "TR: TRT TURK"
+      ]
+    },
+    {
+      "id": "DİYANET.TV.tr",
+      "names": [
+        "TR: TRT DIYANET"
+      ]
+    },
+    {
+      "id": "TRT.ÇOCUK.HD.tr",
+      "names": [
+        "TR: TRT COCUK"
+      ]
+    },
+    {
+      "id": "CARTOON.NETWORK.tr",
+      "names": [
+        "TR: Sevimli Dostlar HD"
+      ]
+    },
+    {
+      "id": "DISNEY.JUNIOR.tr",
+      "names": [
+        "TR: Disney Junior"
+      ]
+    },
+    {
+      "id": "MİNİKA.ÇOCUK.tr",
+      "names": [
+        "TR: MINIKA COCUK"
+      ]
+    },
+    {
+      "id": "Nick.JR.tr",
+      "names": [
+        "TR: NICK JR"
+      ]
+    },
+    {
+      "id": "NICKTOONS.tr",
+      "names": [
+        "TR: NickToons HD"
+      ]
+    },
+    {
+      "id": "BABYTV.tr",
+      "names": [
+        "TR: BABY TV"
+      ]
+    },
+    {
+      "id": "CARTOONITO.tr",
+      "names": [
+        "TR: Cartoonito HD"
+      ]
+    },
+    {
+      "id": "TRT.2.HD.tr",
+      "names": [
+        "TR: TRT 2 HD"
+      ]
+    },
+    {
+      "id": "AKİT.TV.HD.tr",
+      "names": [
+        "TR: AKIT TV HD"
+      ]
+    },
+    {
+      "id": "BENGÜTÜRK.tr",
+      "names": [
+        "TR: BENGUTURK TV HD"
+      ]
+    },
+    {
+      "id": "ÇİFTÇİ.TV.tr",
+      "names": [
+        "TR: Ciftci TV HD"
+      ]
+    },
+    {
+      "id": "TRT.3.tr",
+      "names": [
+        "TR: TRT 3 SPOR"
+      ]
+    },
+    {
+      "id": "MİNİKA.GO.tr",
+      "names": [
+        "TR: Minika GO"
+      ]
+    },
+    {
+      "id": "EKOTÜRK.HD.tr",
+      "names": [
+        "TR: EKOTURK FHD"
+      ]
+    },
+    {
+      "id": "VAV.TV.tr",
+      "names": [
+        "TR: VAV TV HD"
+      ]
+    },
+    {
+      "id": "MELTEM.TV.tr",
+      "names": [
+        "TR: MELTEM TV"
+      ]
+    },
+    {
+      "id": "TV5.tr",
+      "names": [
+        "TR: TV5 HD"
+      ]
+    },
+    {
+      "id": "SPORTS.TV.HD.tr",
+      "names": [
+        "TR: SPORTS TV"
+      ]
+    },
+    {
+      "id": "NICKELODEON.tr",
+      "names": [
+        "TR: Nickelodeon TR"
+      ]
+    },
+    {
+      "id": "DA.VINCI.HD.tr",
+      "names": [
+        "TR: Da Vinci HD",
+        "TR: DA VINCI"
+      ]
+    },
+    {
+      "id": "W-SPORT.tr",
+      "names": [
+        "TR: W-SPORT ʜᴅ 1080"
+      ]
+    },
+    {
+      "id": "EKOL.TV.tr",
+      "names": [
+        "TR: Ekol TV HD"
+      ]
+    },
+    {
+      "id": "CNBC-E.tr",
+      "names": [
+        "TR: CNBC-e HD"
+      ]
+    },
+    {
+      "id": "A.PARA.HD.tr",
+      "names": [
+        "TR: A PARA HD"
+      ]
+    },
+    {
+      "id": "VIASAT.HISTORY.HD.tr",
+      "names": [
+        "TR: VIASAT HISTORY"
+      ]
+    },
+    {
+      "id": "HT.SPOR.tr",
+      "names": [
+        "TR: HT SPOR 4K",
+        "TR: HT SPOR ʜᴅ"
+      ]
+    },
+    {
+      "id": "TYT.TÜRK.tr",
+      "names": [
+        "TR: TYT TURK"
+      ]
+    },
+    {
+      "id": "TRT.DIYANET.COCUK.tr",
+      "names": [
+        "TR: Diyanet Cocuk HD"
+      ]
+    },
+    {
+      "id": "Ekol.Sports.tr",
+      "names": [
+        "TR: EKOL SPORT ʜᴅ 1080"
+      ]
+    },
+    {
+      "id": "HABİTAT.TV.tr",
+      "names": [
+        "TR: Habitat TV"
+      ]
+    }
+  ]
+}

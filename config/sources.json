@@ -1,0 +1,8 @@
+{
+ "sources": [
+  {"name":"iptv-epg-tr","url":"https://iptv-epg.org/files/epg-tr.xml"},
+  {"name":"tvplus","url":"https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml"},
+  {"name":"digiturk","url":"https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml"},
+  {"name":"dsmart","url":"https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml"}
+ ]
+}
