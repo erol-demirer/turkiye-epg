@@ -8,7 +8,13 @@ ROOT = Path(__file__).resolve().parents[1]
 UTC = dt.timezone.utc
 LOG = logging.getLogger('epg')
 MAX_BYTES = 90_000_000
-USER_AGENT = 'TurkeyEPGAggregator/1.0 (personal-use; XMLTV)'
+USER_AGENT = 'TurkeyEPGAggregator/1.1 (personal-use; XMLTV)'
+INVALID_TITLES = {'no data','no information','no programme information','no program information','no info','bilgi yok','yayın bilgisi yok','yayin bilgisi yok','program bilgisi yok','epg yok','n/a','tba','to be announced','-','--'}
+
+def valid_programme(p):
+    title = ' '.join((p.findtext('title') or '').split())
+    return bool(title) and title.casefold() not in INVALID_TITLES
+
 
 
 def norm(s):
@@ -73,7 +79,7 @@ def index_source(root):
     for p in root.findall('programme'):
         cid=p.get('channel')
         start=parse_date(p.get('start')); stop=parse_date(p.get('stop'))
-        if cid and start and stop and stop>start: programs[cid].append((start,stop,p))
+        if cid and start and stop and stop>start and valid_programme(p): programs[cid].append((start,stop,p))
     return channels,programs
 
 
@@ -154,7 +160,7 @@ def main():
                         if ed<=start_limit or st>=end_limit:continue
                         all_progs[t['id']].append((st,ed,pri,copy.deepcopy(p),src['name']))
                 report.append({'target_id':t['id'],'target_name':t['names'][0], 'source':src['name'], 'matched_source_id':source_id or '', 'match_type':kind,'programme_count':len(progs.get(source_id,[])) if source_id else 0, 'current_programmes':sum(1 for st,ed,_ in progs.get(source_id,[]) if ed>now and st<now+dt.timedelta(hours=24)) if source_id else 0})
-            statuses.append({'source':src['name'],'ok':True,'channels':len(channel_idx),'programmed_channels':len(progs),'matched_targets':matched})
+            statuses.append({'source':src['name'],'ok':True,'channels':len(channel_idx),'programmed_channels':len(progs),'matched_targets':matched,'valid_programmes':sum(len(v) for v in progs.values())})
             LOG.info('%s: %d channel IDs, matched %d targets',src['name'],len(channel_idx),matched)
         except Exception as e:
             statuses.append({'source':src['name'],'ok':False,'error':str(e)[:300]})
@@ -167,7 +173,7 @@ def main():
             # Higher priority wins on overlap. Lower priority can fill genuine gaps.
             if any(st<a_ed and ed>a_st for a_st,a_ed,*_ in accepted):continue
             title=p.findtext('title')
-            if not title or not title.strip():continue
+            if not valid_programme(p):continue
             p.set('channel',cid)
             accepted.append((st,ed,p,sname))
         accepted.sort(key=lambda x:x[0])
@@ -175,7 +181,7 @@ def main():
         coverage[cid]={'programmes':len(accepted),'next_24h':sum(1 for st,ed,*_ in accepted if ed>now and st<now+dt.timedelta(hours=24)), 'next_48h':sum(1 for st,ed,*_ in accepted if ed>now and st<now+dt.timedelta(hours=48)), 'sources':sorted({x[3] for x in accepted})}
         for st,ed,p,sname in accepted:
             output.append(p);retained+=1
-    stat={'generated_at_utc':now.isoformat(),'total_target_ids':len(targets),'target_ids_with_programmes':filled,'programme_count':retained,'sources':statuses,'coverage':coverage}
+    stat={'generated_at_utc':now.isoformat(),'total_target_ids':len(targets),'target_ids_with_programmes':filled,'programme_count':retained,'sources':statuses,'coverage':coverage,'usable_target_ids_next_24h':sum(v['next_24h']>0 for v in coverage.values()),'uncovered_target_ids':[k for k,v in coverage.items() if not v['next_24h']]}
     out=Path(args.out);out.mkdir(parents=True,exist_ok=True)
     # If all sources failed, or guide is empty, do not overwrite last good guide.
     if retained < args.min_programmes:
