@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-11-16T21:59:51.976515+00:00",
+  "generated_at_utc": "2026-11-17T07:53:24.076439+00:00",
   "total_target_ids": 111,
   "target_ids_with_programmes": 68,
-  "programme_count": 12271,
+  "programme_count": 13777,
   "sources": [
     {
       "source": "iptv-epg-tr",
@@ -29,91 +29,91 @@
   ],
   "coverage": {
     "TRT1.tr": {
-      "programmes": 70,
+      "programmes": 76,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT1.HD.tr": {
-      "programmes": 70,
+      "programmes": 76,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "STAR.TV.HD.tr": {
-      "programmes": 64,
+      "programmes": 74,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "ATV.HD.tr": {
-      "programmes": 64,
+      "programmes": 70,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "SHOW.TV.HD.tr": {
-      "programmes": 57,
+      "programmes": 61,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "KANAL.D.HD.tr": {
-      "programmes": 47,
+      "programmes": 51,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "NOW.tr": {
-      "programmes": 84,
+      "programmes": 90,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TV8.HD.tr": {
-      "programmes": 69,
+      "programmes": 74,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TV8,5.HD.tr": {
-      "programmes": 60,
+      "programmes": 55,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "KANAL.7.HD.tr": {
-      "programmes": 80,
+      "programmes": 89,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "beIN.SPORTS.HABER.tr": {
-      "programmes": 125,
+      "programmes": 86,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "Beinsports.tr": {
-      "programmes": 71,
+      "programmes": 72,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "Beinsports.2.tr": {
-      "programmes": 71,
+      "programmes": 72,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "Beinsports.3.tr": {
-      "programmes": 63,
+      "programmes": 49,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "Beinsports.4.tr": {
-      "programmes": 64,
+      "programmes": 59,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -159,37 +159,37 @@
       "sources": []
     },
     "EUROSPORT.1.HD.tr": {
-      "programmes": 128,
+      "programmes": 120,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "EUROSPORT.2.HD.tr": {
-      "programmes": 127,
+      "programmes": 119,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.SPOR.HD.tr": {
-      "programmes": 9,
+      "programmes": 48,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.SPOR.YILDIZ.tr": {
-      "programmes": 16,
+      "programmes": 90,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "A.SPOR.HD.tr": {
-      "programmes": 106,
+      "programmes": 113,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "FB.TV.tr": {
-      "programmes": 128,
+      "programmes": 202,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -203,37 +203,37 @@
       "sources": []
     },
     "SİNEMA.TV.2.HD.tr": {
-      "programmes": 71,
+      "programmes": 72,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "SİNEMA.TV.1001.HD.tr": {
-      "programmes": 71,
+      "programmes": 72,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "SİNEMA.AİLE.HD.tr": {
-      "programmes": 71,
+      "programmes": 72,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "SİNEMA.AİLE.2.HD.tr": {
-      "programmes": 71,
+      "programmes": 72,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "SİNEMA.TV.AKSİYON.HD.tr": {
-      "programmes": 71,
+      "programmes": 72,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "SİNEMA.AKSİYON.2.HD.tr": {
-      "programmes": 71,
+      "programmes": 72,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -243,7 +243,7 @@
       "sources": []
     },
     "SİNEMA.1002.HD.tr": {
-      "programmes": 71,
+      "programmes": 72,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -253,61 +253,61 @@
       "sources": []
     },
     "FX.HD.tr": {
-      "programmes": 71,
+      "programmes": 72,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TEVE2.HD.tr": {
-      "programmes": 79,
+      "programmes": 91,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.HABER.HD.tr": {
-      "programmes": 128,
+      "programmes": 146,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "HABERTÜRK.HD.tr": {
-      "programmes": 109,
+      "programmes": 122,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "CNN.TÜRK.HD.tr": {
-      "programmes": 100,
+      "programmes": 113,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "A.HABER.HD.tr": {
-      "programmes": 148,
+      "programmes": 168,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.World.HD.tr": {
-      "programmes": 299,
+      "programmes": 323,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "ÜLKE.TV.HD.tr": {
-      "programmes": 99,
+      "programmes": 112,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "NTV.HD.tr": {
-      "programmes": 454,
+      "programmes": 505,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "A2.HD.tr": {
-      "programmes": 68,
+      "programmes": 75,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -317,31 +317,31 @@
       "sources": []
     },
     "360.HD.tr": {
-      "programmes": 109,
+      "programmes": 111,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "HABER.GLOBAL.HD.tr": {
-      "programmes": 78,
+      "programmes": 86,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TGRT.HABER.HD.tr": {
-      "programmes": 193,
+      "programmes": 217,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TELE1.tr": {
-      "programmes": 167,
+      "programmes": 183,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "BLOOMBERG.HT.HD.tr": {
-      "programmes": 185,
+      "programmes": 200,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -351,19 +351,19 @@
       "sources": []
     },
     "TVNET.HD.tr": {
-      "programmes": 235,
+      "programmes": 262,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "BEYAZ.TV.HD.tr": {
-      "programmes": 72,
+      "programmes": 77,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "KRT.TV.tr": {
-      "programmes": 63,
+      "programmes": 61,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -373,13 +373,13 @@
       "sources": []
     },
     "HALK.TV.tr": {
-      "programmes": 56,
+      "programmes": 62,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TV100.tr": {
-      "programmes": 74,
+      "programmes": 70,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -393,19 +393,19 @@
       "sources": []
     },
     "NATIONAL.GEOGRAPHIC.WILD.HD.tr": {
-      "programmes": 180,
+      "programmes": 197,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "DISCOVERY.CHANNEL.HD.tr": {
-      "programmes": 210,
+      "programmes": 231,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.BELGESEL.HD.tr": {
-      "programmes": 76,
+      "programmes": 209,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -419,19 +419,19 @@
       "sources": []
     },
     "TLC.tr": {
-      "programmes": 197,
+      "programmes": 221,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "DMAX.HD.tr": {
-      "programmes": 180,
+      "programmes": 194,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "BBC.EARTH.tr": {
-      "programmes": 71,
+      "programmes": 72,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -445,13 +445,13 @@
       "sources": []
     },
     "TARIH.TV.tr": {
-      "programmes": 174,
+      "programmes": 190,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.TÜRK.tr": {
-      "programmes": 12,
+      "programmes": 218,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -461,7 +461,7 @@
       "sources": []
     },
     "TRT.ÇOCUK.HD.tr": {
-      "programmes": 423,
+      "programmes": 415,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -471,7 +471,7 @@
       "sources": []
     },
     "DISNEY.JUNIOR.tr": {
-      "programmes": 604,
+      "programmes": 663,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -481,7 +481,7 @@
       "sources": []
     },
     "Nick.JR.tr": {
-      "programmes": 463,
+      "programmes": 508,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -491,19 +491,19 @@
       "sources": []
     },
     "BABYTV.tr": {
-      "programmes": 2269,
+      "programmes": 2487,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "CARTOONITO.tr": {
-      "programmes": 805,
+      "programmes": 878,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.2.HD.tr": {
-      "programmes": 53,
+      "programmes": 155,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -513,7 +513,7 @@
       "sources": []
     },
     "BENGÜTÜRK.tr": {
-      "programmes": 85,
+      "programmes": 92,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -535,7 +535,7 @@
       "sources": []
     },
     "VAV.TV.tr": {
-      "programmes": 135,
+      "programmes": 133,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -553,13 +553,13 @@
       "sources": []
     },
     "NICKELODEON.tr": {
-      "programmes": 400,
+      "programmes": 440,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "DA.VINCI.HD.tr": {
-      "programmes": 685,
+      "programmes": 743,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -577,7 +577,7 @@
       "sources": []
     },
     "A.PARA.HD.tr": {
-      "programmes": 190,
+      "programmes": 219,
       "sources": [
         "iptv-epg-tr"
       ]
@@ -587,7 +587,7 @@
       "sources": []
     },
     "HT.SPOR.tr": {
-      "programmes": 202,
+      "programmes": 206,
       "sources": [
         "iptv-epg-tr"
       ]

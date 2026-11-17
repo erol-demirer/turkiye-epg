@@ -1,19 +1,19 @@
 ﻿target_id,target_name,source,matched_source_id,match_type,programme_count
-TRT1.tr,TR: TRT 1 HD,iptv-epg-tr,TRT1.tr,exact-id,80
-TRT1.HD.tr,TR: TRT 1 FHD,iptv-epg-tr,TRT1.tr,exact-name,80
-STAR.TV.HD.tr,TR: STAR HD,iptv-epg-tr,StarTV.tr,exact-name,75
+TRT1.tr,TR: TRT 1 HD,iptv-epg-tr,TRT1.tr,exact-id,79
+TRT1.HD.tr,TR: TRT 1 FHD,iptv-epg-tr,TRT1.tr,exact-name,79
+STAR.TV.HD.tr,TR: STAR HD,iptv-epg-tr,StarTV.tr,exact-name,76
 ATV.HD.tr,TR: ATV HD,iptv-epg-tr,ATV.tr,exact-name,72
-SHOW.TV.HD.tr,TR: SHOW HD,iptv-epg-tr,ShowTV.tr,exact-name,64
-KANAL.D.HD.tr,TR: KANAL D HD,iptv-epg-tr,KanalD.tr,exact-name,55
-NOW.tr,TR: NOW TV  HD,iptv-epg-tr,NOWTV.tr,exact-name,94
+SHOW.TV.HD.tr,TR: SHOW HD,iptv-epg-tr,ShowTV.tr,exact-name,62
+KANAL.D.HD.tr,TR: KANAL D HD,iptv-epg-tr,KanalD.tr,exact-name,53
+NOW.tr,TR: NOW TV  HD,iptv-epg-tr,NOWTV.tr,exact-name,93
 TV8.HD.tr,TR: TV8 HD,iptv-epg-tr,TV8.tr,exact-name,77
-"TV8,5.HD.tr",TR: TV8.5 FHD,iptv-epg-tr,"TV8,5.tr",exact-name,70
-KANAL.7.HD.tr,TR: KANAL 7 HD,iptv-epg-tr,KANAL7.tr,exact-name,90
-beIN.SPORTS.HABER.tr,TR: beIN SPORTS Haber ʜᴅ,iptv-epg-tr,beINSPORTSHABER.tr,exact-name,150
+"TV8,5.HD.tr",TR: TV8.5 FHD,iptv-epg-tr,"TV8,5.tr",exact-name,58
+KANAL.7.HD.tr,TR: KANAL 7 HD,iptv-epg-tr,KANAL7.tr,exact-name,91
+beIN.SPORTS.HABER.tr,TR: beIN SPORTS Haber ʜᴅ,iptv-epg-tr,beINSPORTSHABER.tr,exact-name,104
 Beinsports.tr,TR: beIN SPORTS 1 sᴅ (576p)⚽️,iptv-epg-tr,beINSPORTS1.tr,exact-name,72
 Beinsports.2.tr,TR: beIN SPORTS 2 ʜᴅ (720p),iptv-epg-tr,beINSPORTS2.tr,exact-name,72
-Beinsports.3.tr,TR: beIN SPORTS 3 ʜᴅ (720p),iptv-epg-tr,beINSPORTS3.tr,exact-name,74
-Beinsports.4.tr,TR: beIN SPORTS 4 ʜᴅ (720p),iptv-epg-tr,beINSPORTS4.tr,exact-name,74
+Beinsports.3.tr,TR: beIN SPORTS 3 ʜᴅ (720p),iptv-epg-tr,beINSPORTS3.tr,exact-name,57
+Beinsports.4.tr,TR: beIN SPORTS 4 ʜᴅ (720p),iptv-epg-tr,beINSPORTS4.tr,exact-name,66
 beIN.SPORTS.MAX.1.tr,TR:beIN SPORTS MAX  1 ʜᴅ 1080 50 FPS,iptv-epg-tr,,missing,0
 beIN.SPORTS.MAX.2.tr,TR:beIN SPORTS MAX  2 ʜᴅ 1080 50 FPS,iptv-epg-tr,,missing,0
 S.SPORT.tr,TR: S Sport 1 ʜᴅ (720p),iptv-epg-tr,,missing,0
@@ -24,12 +24,12 @@ TİVİBU.SPOR.1.tr,TR: TIVIBU SPOR 1 HD,iptv-epg-tr,,missing,0
 TİVİBU.SPOR.2.tr,TR: TIVIBU SPOR 2 HD,iptv-epg-tr,,missing,0
 TİVİBU.SPOR.3.tr,TR: TIVIBU SPOR 3 HD,iptv-epg-tr,,missing,0
 TİVİBU.SPOR.4.tr,TR: TIVIBU SPOR 4 HD,iptv-epg-tr,,missing,0
-EUROSPORT.1.HD.tr,TR: EUROSPORT 1 HD,iptv-epg-tr,Eurosport1.tr,exact-name,145
-EUROSPORT.2.HD.tr,TR: EUROSPORT 2 HD,iptv-epg-tr,Eurosport2.tr,exact-name,142
-TRT.SPOR.HD.tr,TR: TRT SPOR HD,iptv-epg-tr,TRTSPOR.tr,exact-name,30
-TRT.SPOR.YILDIZ.tr,TR: TRT SPOR YILDIZ HD,iptv-epg-tr,TRTSPORYILDIZ.tr,exact-name,51
+EUROSPORT.1.HD.tr,TR: EUROSPORT 1 HD,iptv-epg-tr,Eurosport1.tr,exact-name,124
+EUROSPORT.2.HD.tr,TR: EUROSPORT 2 HD,iptv-epg-tr,Eurosport2.tr,exact-name,124
+TRT.SPOR.HD.tr,TR: TRT SPOR HD,iptv-epg-tr,TRTSPOR.tr,exact-name,50
+TRT.SPOR.YILDIZ.tr,TR: TRT SPOR YILDIZ HD,iptv-epg-tr,TRTSPORYILDIZ.tr,exact-name,95
 A.SPOR.HD.tr,TR: A SPOR HD,iptv-epg-tr,ASpor.tr,exact-name,116
-FB.TV.tr,TR: FB TV,iptv-epg-tr,FBTV.tr,exact-name,150
+FB.TV.tr,TR: FB TV,iptv-epg-tr,FBTV.tr,exact-name,207
 TİVİ6.tr,TR: TIVI 6 HD,iptv-epg-tr,,missing,0
 TV.4.tr,TR: TV4 HD,iptv-epg-tr,,missing,0
 SİNEMA.TV.2.HD.tr,TR: SiNEMA TV 2 FHD,iptv-epg-tr,SinemaTV2.tr,exact-name,72
@@ -42,70 +42,70 @@ SİNEMA.KOMEDİ.HD.tr,TR: SiNEMA TV KOMEDi FHD,iptv-epg-tr,,missing,0
 SİNEMA.1002.HD.tr,TR: SiNEMA TV 1002 FHD,iptv-epg-tr,SinemaTV1002.tr,exact-name,72
 EPIC.DRAMA.tr,TR: EPIC DRAMA HD,iptv-epg-tr,,missing,0
 FX.HD.tr,TR: FX HD,iptv-epg-tr,FX.tr,exact-name,72
-TEVE2.HD.tr,TR: TEVE 2 HD,iptv-epg-tr,Teve2.tr,exact-name,90
+TEVE2.HD.tr,TR: TEVE 2 HD,iptv-epg-tr,Teve2.tr,exact-name,93
 TRT.HABER.HD.tr,TR: TRT HABER HD,iptv-epg-tr,TRTHaber.tr,exact-name,148
 HABERTÜRK.HD.tr,TR: HABER TURK HD,iptv-epg-tr,HABERTURK.tr,exact-name,125
 CNN.TÜRK.HD.tr,TR: CNN TURK HD,iptv-epg-tr,CNNTÜRK.tr,exact-name,114
 A.HABER.HD.tr,TR: A HABER HD,iptv-epg-tr,AHaber.tr,exact-name,170
-TRT.World.HD.tr,TR: TRT WORLD HD,iptv-epg-tr,TRTWorld.tr,exact-name,338
-ÜLKE.TV.HD.tr,TR: ULKE TV HD,iptv-epg-tr,UlkeTV.tr,exact-name,110
-NTV.HD.tr,TR: NTV HD,iptv-epg-tr,NTV.tr,exact-name,520
+TRT.World.HD.tr,TR: TRT WORLD HD,iptv-epg-tr,TRTWorld.tr,exact-name,336
+ÜLKE.TV.HD.tr,TR: ULKE TV HD,iptv-epg-tr,UlkeTV.tr,exact-name,112
+NTV.HD.tr,TR: NTV HD,iptv-epg-tr,NTV.tr,exact-name,519
 A2.HD.tr,TR: A2 FHD,iptv-epg-tr,A2.tr,exact-name,77
 24.HD.tr,TR: 24 TV HD,iptv-epg-tr,,missing,0
-360.HD.tr,TR: 360 HD,iptv-epg-tr,360.tr,exact-name,124
+360.HD.tr,TR: 360 HD,iptv-epg-tr,360.tr,exact-name,114
 HABER.GLOBAL.HD.tr,TR: HABER GLOBAL HD,iptv-epg-tr,HABERGLOBAL.tr,exact-name,88
-TGRT.HABER.HD.tr,TR: TGRT HABER HD,iptv-epg-tr,TGRTHaber.tr,exact-name,223
+TGRT.HABER.HD.tr,TR: TGRT HABER HD,iptv-epg-tr,TGRTHaber.tr,exact-name,221
 TELE1.tr,TR: TELE 1 HD,iptv-epg-tr,TELE1.tr,exact-id,189
-BLOOMBERG.HT.HD.tr,TR: Bloomberg HT HD,iptv-epg-tr,BloombergHT.tr,exact-name,211
+BLOOMBERG.HT.HD.tr,TR: Bloomberg HT HD,iptv-epg-tr,BloombergHT.tr,exact-name,207
 FLASH.HABER.tr,TR: FLASH TV FHD,iptv-epg-tr,,missing,0
 TVNET.HD.tr,TR: TVNET HD,iptv-epg-tr,TVNET.tr,exact-name,267
-BEYAZ.TV.HD.tr,TR: BEYAZ TV HD,iptv-epg-tr,BEYAZTV.tr,exact-name,83
-KRT.TV.tr,TR: KRT TV HD,iptv-epg-tr,KRTTV.tr,exact-name,70
+BEYAZ.TV.HD.tr,TR: BEYAZ TV HD,iptv-epg-tr,BEYAZTV.tr,exact-name,80
+KRT.TV.tr,TR: KRT TV HD,iptv-epg-tr,KRTTV.tr,exact-name,63
 SÖZCÜ.TV.tr,TR: SOZCU TV HD,iptv-epg-tr,,missing,0
 HALK.TV.tr,TR: HALK TV HD,iptv-epg-tr,HalkTV.tr,exact-name,63
-TV100.tr,TR: TV 100 HD,iptv-epg-tr,TV100.tr,exact-id,81
+TV100.tr,TR: TV 100 HD,iptv-epg-tr,TV100.tr,exact-id,72
 ULUSAL.KANAL.tr,TR: Ulusal Kanal HD,iptv-epg-tr,,missing,0
 NATIONAL.GEOGRAPHIC.HD.tr,TR: NAT GEO HD,iptv-epg-tr,,missing,0
 NATIONAL.GEOGRAPHIC.WILD.HD.tr,TR: NAT GEO WILD HD,iptv-epg-tr,NatGeoWild.tr,exact-name,203
 DISCOVERY.CHANNEL.HD.tr,TR: DISCOVERY CHANNEL HD,iptv-epg-tr,DiscoveryChannel.tr,exact-name,238
-TRT.BELGESEL.HD.tr,TR: TRT BELGESEL FHD,iptv-epg-tr,TRTBelgesel.tr,exact-name,105
+TRT.BELGESEL.HD.tr,TR: TRT BELGESEL FHD,iptv-epg-tr,TRTBelgesel.tr,exact-name,217
 KABLO.INFO.tr,TR: IDX DISCOVERY HD,iptv-epg-tr,,missing,0
 LOVE.NATURE.HD.tr,TR: LOVE NATURE HD,iptv-epg-tr,,missing,0
 TLC.tr,TR: TLC HD,iptv-epg-tr,TLC.tr,exact-id,228
-DMAX.HD.tr,TR: DMAX HD,iptv-epg-tr,DMAX.tr,exact-name,205
+DMAX.HD.tr,TR: DMAX HD,iptv-epg-tr,DMAX.tr,exact-name,202
 BBC.EARTH.tr,TR: BBC EARTH HD,iptv-epg-tr,BBCEARTH.tr,exact-name,72
 TRT Belgesel HD (390),TR: TGRT BELGESEL HD,iptv-epg-tr,,missing,0
 TARIM.TV.tr,TR: TARIM TV HD,iptv-epg-tr,,missing,0
 TARIH.TV.tr,TR: TARIH TV HD,iptv-epg-tr,TARIHTV.tr,exact-name,196
-TRT.TÜRK.tr,TR: TRT TURK,iptv-epg-tr,TRTTURK.tr,exact-name,40
+TRT.TÜRK.tr,TR: TRT TURK,iptv-epg-tr,TRTTURK.tr,exact-name,222
 DİYANET.TV.tr,TR: TRT DIYANET,iptv-epg-tr,,missing,0
-TRT.ÇOCUK.HD.tr,TR: TRT COCUK,iptv-epg-tr,TRTÇocuk.tr,exact-name,482
+TRT.ÇOCUK.HD.tr,TR: TRT COCUK,iptv-epg-tr,TRTÇocuk.tr,exact-name,429
 CARTOON.NETWORK.tr,TR: Sevimli Dostlar HD,iptv-epg-tr,,missing,0
-DISNEY.JUNIOR.tr,TR: Disney Junior,iptv-epg-tr,DisneyJunior.tr,exact-name,684
+DISNEY.JUNIOR.tr,TR: Disney Junior,iptv-epg-tr,DisneyJunior.tr,exact-name,686
 MİNİKA.ÇOCUK.tr,TR: MINIKA COCUK,iptv-epg-tr,,missing,0
-Nick.JR.tr,TR: NICK JR,iptv-epg-tr,NickJr.tr,exact-name,525
+Nick.JR.tr,TR: NICK JR,iptv-epg-tr,NickJr.tr,exact-name,522
 NICKTOONS.tr,TR: NickToons HD,iptv-epg-tr,,missing,0
-BABYTV.tr,TR: BABY TV,iptv-epg-tr,BabyTV.tr,exact-name,2579
-CARTOONITO.tr,TR: Cartoonito HD,iptv-epg-tr,Cartoonito.tr,exact-name,914
-TRT.2.HD.tr,TR: TRT 2 HD,iptv-epg-tr,TRT2.tr,exact-name,80
+BABYTV.tr,TR: BABY TV,iptv-epg-tr,BabyTV.tr,exact-name,2577
+CARTOONITO.tr,TR: Cartoonito HD,iptv-epg-tr,Cartoonito.tr,exact-name,910
+TRT.2.HD.tr,TR: TRT 2 HD,iptv-epg-tr,TRT2.tr,exact-name,164
 AKİT.TV.HD.tr,TR: AKIT TV HD,iptv-epg-tr,,missing,0
 BENGÜTÜRK.tr,TR: BENGUTURK TV HD,iptv-epg-tr,BengütürkTV.tr,exact-name,92
 ÇİFTÇİ.TV.tr,TR: Ciftci TV HD,iptv-epg-tr,,missing,0
 TRT.3.tr,TR: TRT 3 SPOR,iptv-epg-tr,,missing,0
 MİNİKA.GO.tr,TR: Minika GO,iptv-epg-tr,,missing,0
 EKOTÜRK.HD.tr,TR: EKOTURK FHD,iptv-epg-tr,,missing,0
-VAV.TV.tr,TR: VAV TV HD,iptv-epg-tr,VAVTV.tr,exact-name,155
+VAV.TV.tr,TR: VAV TV HD,iptv-epg-tr,VAVTV.tr,exact-name,138
 MELTEM.TV.tr,TR: MELTEM TV,iptv-epg-tr,,missing,0
 TV5.tr,TR: TV5 HD,iptv-epg-tr,,missing,0
 SPORTS.TV.HD.tr,TR: SPORTS TV,iptv-epg-tr,,missing,0
-NICKELODEON.tr,TR: Nickelodeon TR,iptv-epg-tr,Nickelodeon.tr,exact-name,456
+NICKELODEON.tr,TR: Nickelodeon TR,iptv-epg-tr,Nickelodeon.tr,exact-name,454
 DA.VINCI.HD.tr,TR: Da Vinci HD,iptv-epg-tr,DaVinci.tr,exact-name,776
 W-SPORT.tr,TR: W-SPORT ʜᴅ 1080,iptv-epg-tr,,missing,0
 EKOL.TV.tr,TR: Ekol TV HD,iptv-epg-tr,,missing,0
 CNBC-E.tr,TR: CNBC-e HD,iptv-epg-tr,,missing,0
-A.PARA.HD.tr,TR: A PARA HD,iptv-epg-tr,APara.tr,exact-name,222
+A.PARA.HD.tr,TR: A PARA HD,iptv-epg-tr,APara.tr,exact-name,221
 VIASAT.HISTORY.HD.tr,TR: VIASAT HISTORY,iptv-epg-tr,,missing,0
-HT.SPOR.tr,TR: HT SPOR 4K,iptv-epg-tr,HTSPOR.tr,exact-name,234
+HT.SPOR.tr,TR: HT SPOR 4K,iptv-epg-tr,HTSPOR.tr,exact-name,210
 TYT.TÜRK.tr,TR: TYT TURK,iptv-epg-tr,,missing,0
 TRT.DIYANET.COCUK.tr,TR: Diyanet Cocuk HD,iptv-epg-tr,,missing,0
 Ekol.Sports.tr,TR: EKOL SPORT ʜᴅ 1080,iptv-epg-tr,,missing,0
