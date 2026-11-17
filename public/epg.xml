@@ -10531,14 +10531,6 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <title lang="tr">Son Sayfa</title>
     <live />
   </programme>
-  <programme start="20261117170000 +0000" stop="20261117174500 +0000" channel="FB.TV.tr">
-    <category lang="tr">Spor</category>
-    <category lang="tr">Sports</category>
-    <desc lang="tr">Euroleague Özel'de maçlar, takımlar ve yıldız oyuncular; istatistikler ve uzman yorumlarıyla detaylı biçimde ele alınıyor. Haftanın öne çıkan başlıkları değerlendiriliyor.</desc>
-    <icon src="https://iptv-epg.org/images/iRLDGXbcdh1gKHp0ykcH1i8MCFrVyeHJWiSXMrsT48a4iMzo70vvL6-C_pL84ttnpnuVlMgdi0NdyPk2p1EO2TnC-K4BK21QzW3IHxk0U45k1qqWkcjrIOf71KZycC5E945m_sr7t_JjG_NKVHLryjDDIGrhAWBOqxSRhj0I5D0frdPi9RV-yEaTezYtrlgGzrmT0okb" />
-    <title lang="tr">Euroleague Özel</title>
-    <live />
-  </programme>
   <programme start="20261117174500 +0000" stop="20261117180000 +0000" channel="FB.TV.tr">
     <category lang="tr">Diğer</category>
     <desc lang="tr">Fenerium Saati, Fenerbahçe'nin resmi mağazası Fenerium'da yer alan ürünleri tanıtıyor. Yeni sezon koleksiyonları, özel tasarımlar ve kampanyalar programda izleyiciyle paylaşılıyor.</desc>
@@ -15399,12 +15391,6 @@ Türkiye'nin farklı şehirlerinde faaliyet gösteren spor okullarında yapılan
     <desc lang="tr">Dizi, konsept danışmanlığını ve sunuculuğunu Kriminalist Prof. Dr. Sevil Atasoy'un yaptığı, yaşanmış gerçek suç hikâyelerinden esinlenilerek hazırlanmış. Dizide, zekice yapıldığına inanılan cinayetlerin, hırsızlıkların, adam kaçırmaların yani birçok suç olayının nasıl çözüldüğü ve hangi noktada kimlerin ne kadar etkisi olduğu ekrana getiriliyor.</desc>
     <title lang="tr">Kanıt</title>
   </programme>
-  <programme start="20261117170000 +0000" stop="20261117174500 +0000" channel="TRT.HABER.HD.tr">
-    <category lang="tr">Haber</category>
-    <desc lang="tr">Ana Haber'de gündemdeki önemli başlıklar ve gözden kaçan detaylar, canlı bağlantılar ile ekrana taşınıyor.</desc>
-    <title lang="tr">Ana Haber 20</title>
-    <new />
-  </programme>
   <programme start="20261117174500 +0000" stop="20261117200000 +0000" channel="TRT.HABER.HD.tr">
     <category lang="tr">Haber</category>
     <desc lang="tr">Gündeme dair önemli başlıklar, muhabir bağlantıları, alanında uzman konuklarla mercek altına alınıyor.</desc>
@@ -16837,12 +16823,6 @@ Türkiye'nin farklı şehirlerinde faaliyet gösteren spor okullarında yapılan
     <title lang="tr">Gece Raporu</title>
     <new />
   </programme>
-  <programme start="20261117150000 +0000" stop="20261117174500 +0000" channel="CNN.TÜRK.HD.tr">
-    <category lang="tr">Haber</category>
-    <desc lang="tr">Türkiye ve dünyadan önemli gelişmeler Ana Haber'de ekrana geliyor.Dünyada ve Türkiye'de olup biten tüm gelişmeler Ana Haber'de izleyicilere sunuluyor. Canlı bağlantılar ve uzman konuklar eşliğinde gün içindeki gelişmeler yorumlanıyor, gündemin öne çıkan haberleri ve önemli olayları değerlendiriliyor.</desc>
-    <title lang="tr">Ana Haber</title>
-    <new />
-  </programme>
   <programme start="20261117174500 +0000" stop="20261117220000 +0000" channel="CNN.TÜRK.HD.tr">
     <category lang="tr">Tartışma</category>
     <desc lang="tr">Göksu Öngören Özgür ile Ne Oluyor?'da, siyasetteki sıcak gündem mercek altına alınıyor.</desc>
@@ -17397,11 +17377,6 @@ Türkiye'nin farklı şehirlerinde faaliyet gösteren spor okullarında yapılan
     <desc lang="tr">Gündemin sıcak konuları, en tartışmalı başlıklar Ahmet Hakan ile gündeme tarafsız bölgeden bakan program Tarafsız Bölge'de tartışılıyor.</desc>
     <title lang="tr">Tarafsız Bölge</title>
     <new />
-  </programme>
-  <programme start="20261117170000 +0000" stop="20261117175000 +0000" channel="A.HABER.HD.tr">
-    <category lang="tr">Haber</category>
-    <desc lang="tr">Günün öne çıkan haberleri, gündemin önemli aktörleri ile birlikte ele alınıyor. Gündemdeki önemli konular tüm yönleriyle ekrana taşınıyor.</desc>
-    <title lang="tr">Akşam Ajansı</title>
   </programme>
   <programme start="20261117175000 +0000" stop="20261117194500 +0000" channel="A.HABER.HD.tr">
     <category lang="tr">Tartışma</category>
@@ -20282,11 +20257,6 @@ Türkiye'nin farklı şehirlerinde faaliyet gösteren spor okullarında yapılan
     <desc lang="tr">Ülke'de Bu Gece, Türkiye ve dünyada gündeme oturan olayları ve günün sıcak haberlerini Ülke TV ekranlarına taşıyor. Siyaset, ekonomi, borsa, sağlık ve meclis gündemi alanında uzman yorumlarla ele alınıyor. Program, tarafsız ve doğru habercilik anlayışıyla izleyiciyi bilgilendiriyor.</desc>
     <icon src="https://iptv-epg.org/images/sH_YLxeFE7InOW-8O41pBbQoW8gvQYRdEFzHt4oO6N_7BjhDnwArA2IrNR8qai6tW4PoEL8xsHT55SYgHlHUYYIiNIGKJNOey6jy5VkAB0J-JlF54ZfPXa5P7kSjAaN-fiQZ_bKrAq2L9JxgVdb-z3FqmOX_H30zFaffmsW3Ujz23MzgkVF3tD3bqmiQBHVA7f4EOhvl" />
     <title lang="tr">Ülkede Bu Gece</title>
-  </programme>
-  <programme start="20261117170000 +0000" stop="20261117175000 +0000" channel="NTV.HD.tr">
-    <category lang="tr">Haber</category>
-    <desc lang="tr">Gündemin öne çıkan başlıkları, olayın merkezinden canlı bağlantılarla sunuluyor. Haberin kahramanları ile konuşuluyor ve uzmanların değerlendirmesi alınıyor.</desc>
-    <title lang="tr">Ana Haber</title>
   </programme>
   <programme start="20261117175000 +0000" stop="20261117175500 +0000" channel="NTV.HD.tr">
     <category lang="tr">Haber</category>
@@ -23470,8 +23440,7 @@ Türkiye'nin farklı şehirlerinde faaliyet gösteren spor okullarında yapılan
     <desc lang="tr">Dört yüz çadırlık bir kavimden üç kıtaya hükmeden bir imparatorluğa yürüyüşün öyküsü... Ve Kayı Boyu'nun gözü kara lideri Osman Bey'in kahramanlıkları...</desc>
     <title lang="tr">Kuruluş Osman</title>
   </programme>
-  <programme start="20261117170000 +0000" stop="20261117174500 +0000" channel="24.HD.tr"><title>Mercek</title><desc>Mercek</desc></programme>
-<programme start="20261117174500 +0000" stop="20261117220000 +0000" channel="24.HD.tr"><title>Basın Ekspres</title><desc>Basın Ekspres</desc></programme>
+  <programme start="20261117174500 +0000" stop="20261117220000 +0000" channel="24.HD.tr"><title>Basın Ekspres</title><desc>Basın Ekspres</desc></programme>
 <programme start="20261117220000 +0000" stop="20261117230000 +0000" channel="24.HD.tr"><title>Günün Manşeti</title><desc>Günün Manşeti</desc></programme>
 <programme start="20261117230000 +0000" stop="20261117233000 +0000" channel="24.HD.tr"><title>Mercek</title><desc>Mercek</desc></programme>
 <programme start="20261117233000 +0000" stop="20261118011500 +0000" channel="24.HD.tr"><title>Bu Ülke</title><desc>Bu Ülke</desc></programme>
@@ -30194,13 +30163,7 @@ Stüdyodaki yarışmacılar ve ekran başındaki seyirciler farklı kategorilerl
 <programme start="20261119115500 +0000" stop="20261119120000 +0000" channel="FLASH.HABER.tr"><title>Kuş Bakışı</title><desc>Kuş Bakışı</desc></programme>
 <programme start="20261119120000 +0000" stop="20261119122500 +0000" channel="FLASH.HABER.tr"><title>Almanak 2025</title><desc>Almanak 2025</desc></programme>
 <programme start="20261119122500 +0000" stop="20261119125500 +0000" channel="FLASH.HABER.tr"><title>Bilim Hattı</title><desc>Bilim Hattı</desc></programme>
-<programme start="20261117173000 +0000" stop="20261117174500 +0000" channel="TVNET.HD.tr">
-    <category lang="tr">Magazin</category>
-    <desc lang="tr">Editör Anlatıyor, güncel olayları, merak edilen konuları ve gündem başlıklarını genç izleyici için anlaşılır ve keyifli bir şekilde ele alıyor. Programda haberlerin perde arkası, ilginç bilgiler ve uzman yorumlarıyla sunuluyor; izleyiciler hem bilgilendiriliyor hem de eğlenceli bir deneyim yaşıyor.</desc>
-    <icon src="https://iptv-epg.org/images/UwlI6q1GX9SsHCxs7XuMbGbz25WcVlyPtF0VzcK5EyXI6ApMiLa_4RV2hYZsw5OI-VaIBHco2rTqk3NG7tTkhaDJ5mKpBVyyQ0h2Osd0Ju5lR-4MC9D7FmYPmuaJ7KX1KlIVwh5NZv739A4JetHSf1Pb4uvAY-Tf3wfrFxtfLfykWZgFI-Rzd3r1cAC6IoYMIKIIruPN" />
-    <title lang="tr">Editör Anlatıyor</title>
-  </programme>
-  <programme start="20261117174500 +0000" stop="20261117183000 +0000" channel="TVNET.HD.tr">
+<programme start="20261117174500 +0000" stop="20261117183000 +0000" channel="TVNET.HD.tr">
     <category lang="tr">Magazin</category>
     <desc lang="tr">Akıl Odası, dış politika analizleri ve küresel gündem değerlendirmelerini izleyiciye sunar. Nedret Ersanel moderatörlüğünde Avni Özgürel, Süleyman Seyfi Öğün ve Hasan Köni, farklı bakış açılarıyla diplomasi ve uluslararası gelişmeleri yorumlar. Program, izleyiciye kapsamlı ve özgün bir bakış açısı kazandırır.</desc>
     <icon src="https://iptv-epg.org/images/KCxDgW5WYw9XbHiYIvnIplF5edP_rC6nhylLIq-MFbzCRF_M4E3VkPbdDqMgO-D_YhvH3ufiTa3XgyiOZ9iO37coOgUG8Lj13C0qCx35F8isTvIX0ugDCdMawqPhZOqynIM7uIG-Z_UQU_hrxJaxO8tgOOhGaBHDNGiESUFc3H8hHOGQB69Frfsttiv36fQ0kRV1rZU" />
@@ -37661,12 +37624,6 @@ Güvenlik ve Gümrük Hizmetleri memurları, uyuşturucu, silah ve şüpheli ter
 Güvenlik ve Gümrük Hizmetleri memurları, uyuşturucu, silah ve şüpheli teröristlerin daimi tehdidi altındaki İtalya sınırlarını korurlar.</desc>
     <episode-num>S1 E11</episode-num>
     <title lang="tr">Gümrük Kontrol: İtalya</title>
-  </programme>
-  <programme start="20261117165500 +0000" stop="20261117175000 +0000" channel="TRT.BELGESEL.HD.tr">
-    <category lang="tr">Belgesel</category>
-    <desc lang="tr">Dünyanın merkezinde yer alan, kadim medeniyetlerin beşiği Anadolu... Benzersiz coğrafi güzellikleri kadar, içinde yaşadığı topraklara değer katan insanıyla da göz kamaştırıyor. Anadolu'da yedi bölgeye yayılan milyonlarca insanın; sabır, cesaret, fedakârlık, merhamet gibi farklı erdemler etrafında gelişen yaşam öyküleri, 'Anadolu İnsanı' isimli programla TRT Belgesel ekranlarına taşınıyor. Türkiye'nin farklı bölgelerinden derlenen ve her bölümde birbirinden farklı hikâyelerin yer alacağı Anadolu İnsanı, bu coğrafyanın eşsiz güzelliğini ve destansı öykülerini çarpıcı bir dille izleyicilerle buluşturuyor.</desc>
-    <icon src="https://iptv-epg.org/images/Hlm1nkb5Lo-rP7SXZM2Gjf1L3RNcFKTtIYztLdlmOvFyyvsKOjiwlmcJdwEqjKFAsKzKRberNTkjMDKE_4L0C3bAX2NhriUQtVpMYEdY36hY-IxJpGeRmC-ofbeJj0cJ4PAH_0cn_yFOnTG6W8KYaiUvanRMrTw9JTVI6UoDh9g5AqdgW5Z-uQNDh_cGFBw7sgtE1xXU" />
-    <title lang="tr">Anadolu İnsanı</title>
   </programme>
   <programme start="20261117175000 +0000" stop="20261117184500 +0000" channel="TRT.BELGESEL.HD.tr">
     <category lang="tr">Belgesel</category>
@@ -49165,13 +49122,6 @@ Arşiv görüntüleri eşliğinde hazırlanan bu belgesel, Amerika'da servet yo�
     <desc lang="tr">Gumball'ın Muhteşem Tuhaf Dünyası - Elmorea hoş geldiniz! Burada gerçeklik kuralları sadece bir şaka, aile hayatı ise asla sıradan değil.</desc>
     <title lang="tr">Gumball'ın Muhteşem Tuhaf...</title>
   </programme>
-  <programme start="20261117172500 +0000" stop="20261117175000 +0000" channel="DISNEY.JUNIOR.tr">
-    <category lang="tr">Çocuk</category>
-    <desc lang="tr">S1 E11
-Mickey, Minnie’ye sürpriz bir pembe ayakkabı hediye eder.</desc>
-    <episode-num>S1 E11</episode-num>
-    <title lang="tr">Mickey'nin Kulüp Evi+</title>
-  </programme>
   <programme start="20261117175000 +0000" stop="20261117175500 +0000" channel="DISNEY.JUNIOR.tr">
     <category lang="tr">Çocuk</category>
     <desc lang="tr">S2 E94
@@ -58013,16 +57963,6 @@ Bir tavşan ailesi futbol sahasına atlayınca, Rubble ve Ekibi yeteneklerini ku
 Dora ve Boots, Büyük Kırmızı Tavuk bir şelalenin üzerinden uçmadan önce onu uyandırmak zorunda! Dora ve arkadaşları gizemli bir hediyeyi açmak için bir dizi soru ve zorluğu çözmelidir.</desc>
     <episode-num>S1 E4</episode-num>
     <title lang="tr">Kâşif Dora</title>
-  </programme>
-  <programme start="20261117173900 +0000" stop="20261117174500 +0000" channel="BABYTV.tr">
-    <category lang="tr">Eğlence</category>
-    <desc lang="tr">Birbirinden oldukça farklı ve komik iki gezgin olan aklı başında Perry ve ele avuca sığmayan Harley, bir sorunu çözmenin birden fazla yolu olduğunu keşfederler.</desc>
-    <title lang="tr">Gezginler</title>
-  </programme>
-  <programme start="20261117174500 +0000" stop="20261117175000 +0000" channel="BABYTV.tr">
-    <category lang="tr">Eğlence</category>
-    <desc lang="tr">Hareketli ve oynamayı seven küçük Tilki Pix ve onun en iyi arkadaşı uykucu ve meraklı Aslan Leo ile tanışın. Onlar gülüp oynarken ve etraflarındaki dünya hakkında bilgi edinirken ormandaki komik maceralarını takip edin. Hayvan komşuları ile tanışacaklar, farklı ortamları keşfedecekler ve sorun ne olursa olsun birbirlerinin her zaman sahip çıkmayı öğrenecekler. Bu yaratıcı dizi, küçük çocukları arkadaşlığın (iniş) çıkışlarıyla tanıştırıyor.</desc>
-    <title lang="tr">Pix ve Leo</title>
   </programme>
   <programme start="20261117175000 +0000" stop="20261117175300 +0000" channel="BABYTV.tr">
     <category lang="tr">Eğlence</category>
@@ -77975,12 +77915,6 @@ BabyTV'nin dünya şarkıları ve kafiyeleri koleksiyonunun tadını çıkar! Me
     <desc lang="tr">Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
     <title lang="tr">Kral Şakir</title>
   </programme>
-  <programme start="20261117170000 +0000" stop="20261117174500 +0000" channel="TRT.2.HD.tr">
-    <category lang="tr">Kültür &amp; Sanat</category>
-    <desc lang="tr">Edebiyat Dünyası; yazarlara, eserlere ve edebiyatımızın her alanına ışık tutmak için ekranlarınıza geliyor.</desc>
-    <icon src="https://iptv-epg.org/images/R0F2CQ9aO4JuBMRd-T4AqaH0sg2I9MGIyJJ5Cd72PUUy_web7s7qh_sssDzmZ4x6NUoWoWHjSn2ufLBzG_DfQ1Qg3xOPkFzK3QTNNo8MCMvUlOoQFmQbz1ucUKY7JmJTEWlCqa_Liqx9LR_uotTYhWWJeKw-iFefAe-gvxWh9cvUIvW_Kpn2-9jQ3Z0cJdVdQrHRdWs8" />
-    <title lang="tr">Edebiyat Dünyası</title>
-  </programme>
   <programme start="20261117174500 +0000" stop="20261117180000 +0000" channel="TRT.2.HD.tr">
     <category lang="tr">Belgesel</category>
     <desc lang="tr">Yeryüzleri; kültür, sanat ve medeniyetin içinden yalın insan hikayelerini aktarıyor.</desc>
@@ -80144,17 +80078,6 @@ BabyTV'nin dünya şarkıları ve kafiyeleri koleksiyonunun tadını çıkar! Me
     <category lang="tr">Haber</category>
     <desc lang="tr">İslam ile ilgili konuların, kavramların, fikirlerin konuşulduğu ve enine boyuna tartışıldığı Son Davet, sizlere İslam'a davetteki ince çizgi konusunda önemli bilgiler sunuyor.</desc>
     <title lang="tr">Son Davet</title>
-  </programme>
-  <programme start="20261117172700 +0000" stop="20261117175000 +0000" channel="NICKELODEON.tr">
-    <category lang="tr">Çocuk</category>
-    <credits>
-      <director>Chris Savino</director>
-      <director>Kyle Marshall</director>
-    </credits>
-    <desc lang="tr">S4 E24
-Gürültü Ailesi'nin evinde elektrikler kesilince çocuklar kendilerini hikayeler anlatarak eğlendirir. Lucy ve Levazımatçılar Kulübü okul gezisi planını kumsala çevirmeye çalışır.</desc>
-    <episode-num>S4 E24</episode-num>
-    <title lang="tr">Gürültü Ailesi</title>
   </programme>
   <programme start="20261117175000 +0000" stop="20261117180200 +0000" channel="NICKELODEON.tr">
     <category lang="tr">Çocuk</category>
@@ -92623,7 +92546,6 @@ Ormanda yaşayan sevimli hayvan dostlar, doğanın seslerinden ilham alarak kend
 <programme start="20261119113000 +0000" stop="20261119115600 +0000" channel="BEIN.SERIES.1.tr"><title>Twisted Metal S2 Ep 4</title><desc>Twisted Metal S2</desc><episode-num system="xmltv_ns">1.3.0</episode-num></programme>
 <programme start="20261119115600 +0000" stop="20261119120000 +0000" channel="BEIN.SERIES.1.tr"><title>Az sonra...</title><desc>Az sonra...</desc></programme>
 <programme start="20261119120000 +0000" stop="20261119125500 +0000" channel="BEIN.SERIES.1.tr"><title>Magpie Murders Marble Hall Murders S3 Ep 1</title><desc>Magpie Murders S3</desc><episode-num system="xmltv_ns">2.0.0</episode-num></programme>
-<programme start="20261117170000 +0000" stop="20261117174500 +0000" channel="BEIN.SERIES.2.tr"><title>Miniature Wife, The S1 B4</title><desc>Miniature Wife, The: Season 1</desc></programme>
 <programme start="20261117174500 +0000" stop="20261117210100 +0000" channel="BEIN.SERIES.2.tr"><title>Az sonra...</title><desc>Az sonra...</desc></programme>
 <programme start="20261117210100 +0000" stop="20261117214200 +0000" channel="BEIN.SERIES.2.tr"><title>Law And Order: SVU S26 EP 7</title><desc>Law And Order: SVU S26</desc><episode-num system="xmltv_ns">25.6.0</episode-num></programme>
 <programme start="20261117214200 +0000" stop="20261117220000 +0000" channel="BEIN.SERIES.2.tr"><title>Az sonra...</title><desc>Az sonra...</desc></programme>
@@ -92712,7 +92634,6 @@ Ormanda yaşayan sevimli hayvan dostlar, doğanın seslerinden ilham alarak kend
 <programme start="20261119113000 +0000" stop="20261119115000 +0000" channel="BEIN.SERIES.2.tr"><title>Ghosts S5 Ep 19</title><desc>Ghosts S5</desc><episode-num system="xmltv_ns">4.18.0</episode-num></programme>
 <programme start="20261119115000 +0000" stop="20261119120000 +0000" channel="BEIN.SERIES.2.tr"><title>Az sonra...</title><desc>Az sonra...</desc></programme>
 <programme start="20261119120000 +0000" stop="20261119124200 +0000" channel="BEIN.SERIES.2.tr"><title>Miniature Wife, The S1 B5</title><desc>Miniature Wife, The: Season 1</desc></programme>
-<programme start="20261117173400 +0000" stop="20261117174500 +0000" channel="BEIN.GURME.tr"><title>Az sonra...</title><desc>Az sonra...</desc></programme>
 <programme start="20261117174500 +0000" stop="20261117210500 +0000" channel="BEIN.GURME.tr"><title>Şemsa’nın Hikayesi S3 B2</title><desc>Şemsa’nın Hikayesi S3 B2</desc></programme>
 <programme start="20261117210500 +0000" stop="20261117213500 +0000" channel="BEIN.GURME.tr"><title>Zamanın Sofrası:Büyükada S1 B2</title><desc>Zamanın Sofrası:Büyükada S1 B2</desc></programme>
 <programme start="20261117213500 +0000" stop="20261117214000 +0000" channel="BEIN.GURME.tr"><title>Az sonra...</title><desc>Az sonra...</desc></programme>
@@ -92828,7 +92749,6 @@ Ormanda yaşayan sevimli hayvan dostlar, doğanın seslerinden ilham alarak kend
 <programme start="20261119113500 +0000" stop="20261119120900 +0000" channel="BEIN.GURME.tr"><title>Mutfak Sanatı S1 B4</title><desc>Mutfak Sanatı S1 B4</desc></programme>
 <programme start="20261119120900 +0000" stop="20261119121500 +0000" channel="BEIN.GURME.tr"><title>Az sonra...</title><desc>Az sonra...</desc></programme>
 <programme start="20261119121500 +0000" stop="20261119125500 +0000" channel="BEIN.GURME.tr"><title>Kaynama Noktası S1 B8</title><desc>Kaynama Noktası S1 B8</desc></programme>
-<programme start="20261117171500 +0000" stop="20261117174900 +0000" channel="BEIN.IZ.tr"><title>Kesişen Kültürler S2 EP4</title><desc>KESISEN KULTURLER SEZON 2</desc><episode-num system="xmltv_ns">1.3.0</episode-num></programme>
 <programme start="20261117174900 +0000" stop="20261117210500 +0000" channel="BEIN.IZ.tr"><title>Az sonra...</title><desc>Az sonra...</desc></programme>
 <programme start="20261117210500 +0000" stop="20261117213900 +0000" channel="BEIN.IZ.tr"><title>Kesişen Kültürler S2 EP4</title><desc>KESISEN KULTURLER SEZON 2</desc><episode-num system="xmltv_ns">1.3.0</episode-num></programme>
 <programme start="20261117213900 +0000" stop="20261117214500 +0000" channel="BEIN.IZ.tr"><title>Az sonra...</title><desc>Az sonra...</desc></programme>
