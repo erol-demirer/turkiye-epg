@@ -77,34 +77,43 @@ def index_source(root):
     return channels,programs
 
 
-def match(target,channels, overrides):
-    tid=target['id']; candidates=[]
+def match(target, channels, overrides, programs=None):
+    """Find the best usable channel. Never let an empty exact ID hide a populated alias."""
+    tid=target['id']
     override=overrides.get(tid)
+    options=[]
     if override:
-        vals=override if isinstance(override,list) else [override]
-        for v in vals:
-            if v in channels: return v,'override'
-    if tid in channels: return tid,'exact-id'
-    # A variant suffix can differ, but only if the channel itself is unambiguous.
-    tnames={norm(tid),*(norm(x) for x in target['names'])}
-    # Normalize country suffix on channel-ID strings, e.g. SINEMA.TV.HD.tr -> sinema tv
+        for v in (override if isinstance(override,list) else [override]):
+            if v in channels: options.append((v,'override'))
+    if tid in channels: options.append((tid,'exact-id'))
+    tnames={norm(tid), *(norm(x) for x in target['names'])}
     for n in list(tnames):
         if n.endswith(' tr'): tnames.add(n[:-3])
     tnames.discard('')
-    best=[]
+    matches=[]
     for cid,names in channels.items():
+        if cid==tid:continue
         cnames={norm(cid.split('@')[0]),*(norm(n) for n in names)}
         for n in list(cnames):
-            if n.endswith(' tr'): cnames.add(n[:-3])
-        cnames.discard('')
-        if tnames & cnames: best.append(cid)
-    if len(best)==1: return best[0],'exact-name'
-    if len(best)>1:
-        # Multiple quality variants of the same channel should be safe; prefer SD/HD consistently.
-        stems={norm(x.split('@')[0]) for x in best}
-        if len(stems)==1: return sorted(best,key=lambda x:('@HD' not in x,'@SD' not in x,x))[0],'variant'
-        return None,'ambiguous'
-    return None,'missing'
+            if n.endswith(' tr'):cnames.add(n[:-3])
+        if tnames & cnames: matches.append(cid)
+    if len(matches)==1:options.append((matches[0],'exact-name'))
+    elif len(matches)>1:
+        stems={norm(x.split('@')[0]) for x in matches}
+        if len(stems)==1:
+            for cid in sorted(matches,key=lambda x:('@HD' not in x,'@SD' not in x,x)):
+                options.append((cid,'variant'))
+        else:
+            # Multiple distinct IDs matched an alias. Don't guess without overrides.
+            return (None,'ambiguous') if not options else _pick(options,programs)
+    return _pick(options,programs) if options else (None,'missing')
+
+
+def _pick(options,programs):
+    # Explicit source mapping beats inferred names if it has programmes.
+    for cid,kind in options:
+        if programs is None or programs.get(cid): return cid,kind
+    return options[0][0], 'matched-without-programmes'
 
 
 def sources_config(path): return json.loads(Path(path).read_text(encoding='utf-8'))
@@ -138,13 +147,13 @@ def main():
             channel_idx,progs=index_source(root)
             matched=0
             for t in targets:
-                source_id,kind=match(t,channel_idx,overrides.get(src['name'],{}))
+                source_id,kind=match(t,channel_idx,overrides.get(src['name'],{}),progs)
                 if source_id and progs.get(source_id):
                     matched+=1
                     for st,ed,p in progs[source_id]:
                         if ed<=start_limit or st>=end_limit:continue
                         all_progs[t['id']].append((st,ed,pri,copy.deepcopy(p),src['name']))
-                report.append({'target_id':t['id'],'target_name':t['names'][0], 'source':src['name'], 'matched_source_id':source_id or '', 'match_type':kind,'programme_count':len(progs.get(source_id,[])) if source_id else 0})
+                report.append({'target_id':t['id'],'target_name':t['names'][0], 'source':src['name'], 'matched_source_id':source_id or '', 'match_type':kind,'programme_count':len(progs.get(source_id,[])) if source_id else 0, 'current_programmes':sum(1 for st,ed,_ in progs.get(source_id,[]) if ed>now and st<now+dt.timedelta(hours=24)) if source_id else 0})
             statuses.append({'source':src['name'],'ok':True,'channels':len(channel_idx),'programmed_channels':len(progs),'matched_targets':matched})
             LOG.info('%s: %d channel IDs, matched %d targets',src['name'],len(channel_idx),matched)
         except Exception as e:
@@ -163,7 +172,7 @@ def main():
             accepted.append((st,ed,p,sname))
         accepted.sort(key=lambda x:x[0])
         if accepted:filled+=1
-        coverage[cid]={'programmes':len(accepted),'sources':sorted({x[3] for x in accepted})}
+        coverage[cid]={'programmes':len(accepted),'next_24h':sum(1 for st,ed,*_ in accepted if ed>now and st<now+dt.timedelta(hours=24)), 'next_48h':sum(1 for st,ed,*_ in accepted if ed>now and st<now+dt.timedelta(hours=48)), 'sources':sorted({x[3] for x in accepted})}
         for st,ed,p,sname in accepted:
             output.append(p);retained+=1
     stat={'generated_at_utc':now.isoformat(),'total_target_ids':len(targets),'target_ids_with_programmes':filled,'programme_count':retained,'sources':statuses,'coverage':coverage}
@@ -178,7 +187,7 @@ def main():
     with gzip.open(out/'epg.xml.gz','wb',compresslevel=9) as f:f.write(data)
     (out/'status.json').write_text(json.dumps(stat,ensure_ascii=False,indent=2),encoding='utf-8')
     with (out/'matches.csv').open('w',newline='',encoding='utf-8-sig') as f:
-        writer=csv.DictWriter(f,fieldnames=['target_id','target_name','source','matched_source_id','match_type','programme_count']); writer.writeheader();writer.writerows(report)
+        writer=csv.DictWriter(f,fieldnames=['target_id','target_name','source','matched_source_id','match_type','programme_count','current_programmes']); writer.writeheader();writer.writerows(report)
     LOG.info('Success: %d programmes across %d/%d target IDs',retained,filled,len(targets))
     return 0
 
