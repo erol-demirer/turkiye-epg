@@ -450,7 +450,10 @@
       "id": "NATIONAL.GEOGRAPHIC.HD.tr",
       "names": [
         "TR: NAT GEO HD",
-        "TR: NAT GEO FHD"
+        "TR: NAT GEO FHD",
+        "National Geographic",
+        "National Geographic HD",
+        "Nat Geo"
       ]
     },
     {
@@ -477,13 +480,19 @@
     {
       "id": "KABLO.INFO.tr",
       "names": [
-        "TR: IDX DISCOVERY HD"
+        "TR: IDX DISCOVERY HD",
+        "Investigation Discovery",
+        "Investigation Discovery HD",
+        "ID Discovery",
+        "IDX Discovery"
       ]
     },
     {
       "id": "LOVE.NATURE.HD.tr",
       "names": [
-        "TR: LOVE NATURE HD"
+        "TR: LOVE NATURE HD",
+        "Love Nature",
+        "Love Nature Türkiye"
       ]
     },
     {
@@ -501,7 +510,9 @@
     {
       "id": "BBC.EARTH.tr",
       "names": [
-        "TR: BBC EARTH HD"
+        "TR: BBC EARTH HD",
+        "BBC Earth",
+        "BBC Earth HD"
       ]
     },
     {
@@ -688,7 +699,10 @@
     {
       "id": "VIASAT.HISTORY.HD.tr",
       "names": [
-        "TR: VIASAT HISTORY"
+        "TR: VIASAT HISTORY",
+        "Viasat History",
+        "Viasat History HD",
+        "Viasat History Türkiye"
       ]
     },
     {
@@ -719,7 +733,105 @@
     {
       "id": "HABİTAT.TV.tr",
       "names": [
-        "TR: Habitat TV"
+        "TR: Habitat TV",
+        "Habitat TV"
+      ]
+    },
+    {
+      "id": "BEIN.MOVIES.STARS.tr",
+      "names": [
+        "TR: beIN MOVIES STARS HD",
+        "beIN Movies Stars"
+      ]
+    },
+    {
+      "id": "BEIN.MOVIES.PREMIERE.1.tr",
+      "names": [
+        "TR: beIN MOVIES PREMIERE 1 HD",
+        "beIN Movies Premiere 1"
+      ]
+    },
+    {
+      "id": "BEIN.MOVIES.TURK.tr",
+      "names": [
+        "TR: beIN MOVIES TURK HD",
+        "beIN Movies Türk",
+        "beIN Movies Turk"
+      ]
+    },
+    {
+      "id": "BEIN.SERIES.1.tr",
+      "names": [
+        "TR: beIN SERIES 1 HD"
+      ]
+    },
+    {
+      "id": "BEIN.SERIES.2.tr",
+      "names": [
+        "TR: beIN SERIES 2 HD"
+      ]
+    },
+    {
+      "id": "BEIN.SERIES.3.tr",
+      "names": [
+        "TR: beIN SERIES 3 HD"
+      ]
+    },
+    {
+      "id": "BEIN.SERIES.4.tr",
+      "names": [
+        "TR: beIN SERIES 4 HD"
+      ]
+    },
+    {
+      "id": "BEIN.BOXOFFICE.1.tr",
+      "names": [
+        "TR: beIN BOXOFFICE 1 HD"
+      ]
+    },
+    {
+      "id": "BEIN.BOXOFFICE.2.tr",
+      "names": [
+        "TR: beIN BOXOFFICE 2 HD"
+      ]
+    },
+    {
+      "id": "BEIN.BOXOFFICE.3.tr",
+      "names": [
+        "TR: beIN BOXOFFICE 3 HD"
+      ]
+    },
+    {
+      "id": "BEIN.GURME.tr",
+      "names": [
+        "TR: beIN GURME HD",
+        "beIN Gurme",
+        "beIN GURME"
+      ]
+    },
+    {
+      "id": "BEIN.IZ.tr",
+      "names": [
+        "TR: beIN IZ TV HD",
+        "beIN İz",
+        "beIN IZ",
+        "beIN IZ TV"
+      ]
+    },
+    {
+      "id": "DOCU.SCREEN.tr",
+      "names": [
+        "TR: DOCU SCREEN HD",
+        "Docu Screen",
+        "DOCUSCREEN"
+      ]
+    },
+    {
+      "id": "GZT.TV.tr",
+      "names": [
+        "TR: GZT TV",
+        "GZT TV",
+        "GZT"
       ]
     }
   ]
