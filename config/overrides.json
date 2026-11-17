@@ -1,6 +1,35 @@
 {
   "iptv-epg-tr": {},
-  "tvplus": {},
+  "tvplus": {
+    "SİNEMA.TV.2.HD.tr": [
+      "Sinema2.tr@SD",
+      "Sinema2.tr@HD"
+    ],
+    "SİNEMA.TV.1001.HD.tr": [
+      "Sinema1001.tr@SD"
+    ],
+    "SİNEMA.1002.HD.tr": [
+      "Sinema1002.tr@SD"
+    ],
+    "SİNEMA.AİLE.HD.tr": [
+      "SinemaAile.tr@SD"
+    ],
+    "SİNEMA.AİLE.2.HD.tr": [
+      "SinemaAile2.tr@SD"
+    ],
+    "SİNEMA.TV.AKSİYON.HD.tr": [
+      "SinemaAksiyon.tr@SD"
+    ],
+    "SİNEMA.AKSİYON.2.HD.tr": [
+      "SinemaAksiyon2.tr@SD"
+    ],
+    "SİNEMA.KOMEDİ.HD.tr": [
+      "SinemaKomedi.tr@SD"
+    ],
+    "EPIC.DRAMA.tr": [
+      "EpicDrama.uk@Sweden"
+    ]
+  },
   "digiturk": {},
   "dsmart": {}
 }
