@@ -11,7 +11,7 @@ from xml.etree import ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 UPSTREAM = ROOT / '_upstream_epg'
 OUT = ROOT / 'generated' / 'iptv-org'
-SITES = ('tvplus.com.tr', 'digiturk.com.tr', 'dsmart.com.tr', 'turksatkablo.com.tr')
+SITES = ('tvplus.com.tr')
 
 
 def collect(repo=UPSTREAM, output=OUT, runner=subprocess.run, proxy=None):
