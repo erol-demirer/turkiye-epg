@@ -5,17 +5,37 @@ on:
     - cron: '17 */6 * * *'
 permissions:
   contents: write
+concurrency:
+  group: turkiye-epg-update
+  cancel-in-progress: false
 jobs:
   build-guide:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Generate XMLTV
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Clone upstream IPTV-ORG EPG scraper
+        run: git clone --depth 1 --branch master https://github.com/iptv-org/epg.git _upstream_epg
+      - name: Install upstream dependencies
+        id: upstream-install
+        continue-on-error: true
+        working-directory: _upstream_epg
+        run: npm ci --no-audit --no-fund
+      - name: Collect Turkish guides (each site independent)
+        if: steps.upstream-install.outcome == 'success'
+        env:
+          TR_EPG_PROXY: ${{ secrets.TR_EPG_PROXY }}
+        run: python scripts/collect_iptv_org.py
+      - name: Generate merged XMLTV
         run: python scripts/engine.py
+      - name: Validate output and run unit tests
+        run: python -m unittest discover -s tests -v
       - name: Commit generated guide
         run: |
           git config user.name "github-actions[bot]"
