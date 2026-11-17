@@ -87,10 +87,15 @@ def match(target,channels, overrides):
     if tid in channels: return tid,'exact-id'
     # A variant suffix can differ, but only if the channel itself is unambiguous.
     tnames={norm(tid),*(norm(x) for x in target['names'])}
+    # Normalize country suffix on channel-ID strings, e.g. SINEMA.TV.HD.tr -> sinema tv
+    for n in list(tnames):
+        if n.endswith(' tr'): tnames.add(n[:-3])
     tnames.discard('')
     best=[]
     for cid,names in channels.items():
         cnames={norm(cid.split('@')[0]),*(norm(n) for n in names)}
+        for n in list(cnames):
+            if n.endswith(' tr'): cnames.add(n[:-3])
         cnames.discard('')
         if tnames & cnames: best.append(cid)
     if len(best)==1: return best[0],'exact-name'
