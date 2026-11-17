@@ -149,7 +149,7 @@ def main():
         ET.SubElement(c,'display-name').text=t['names'][0]
     for pri,src in enumerate(sources):
         try:
-            root=read_xml(Path(src['path']).read_bytes()) if 'path' in src else fetch(src['url'])
+            root=read_xml((ROOT / src['path'] if not Path(src['path']).is_absolute() else Path(src['path'])).read_bytes()) if 'path' in src else fetch(src['url'])
             channel_idx,progs=index_source(root)
             matched=0
             for t in targets:
@@ -181,7 +181,9 @@ def main():
         coverage[cid]={'programmes':len(accepted),'next_24h':sum(1 for st,ed,*_ in accepted if ed>now and st<now+dt.timedelta(hours=24)), 'next_48h':sum(1 for st,ed,*_ in accepted if ed>now and st<now+dt.timedelta(hours=48)), 'sources':sorted({x[3] for x in accepted})}
         for st,ed,p,sname in accepted:
             output.append(p);retained+=1
-    stat={'generated_at_utc':now.isoformat(),'total_target_ids':len(targets),'target_ids_with_programmes':filled,'programme_count':retained,'sources':statuses,'coverage':coverage,'usable_target_ids_next_24h':sum(v['next_24h']>0 for v in coverage.values()),'uncovered_target_ids':[k for k,v in coverage.items() if not v['next_24h']]}
+    collection_file=ROOT/'generated/iptv-org/collection.json'
+    collector=json.loads(collection_file.read_text(encoding='utf-8')) if collection_file.is_file() else {'note':'Collection not run in this invocation'}
+    stat={'iptv_org_collection':collector,'generated_at_utc':now.isoformat(),'total_target_ids':len(targets),'target_ids_with_programmes':filled,'programme_count':retained,'sources':statuses,'coverage':coverage,'usable_target_ids_next_24h':sum(v['next_24h']>0 for v in coverage.values()),'uncovered_target_ids':[k for k,v in coverage.items() if not v['next_24h']]}
     out=Path(args.out);out.mkdir(parents=True,exist_ok=True)
     # If all sources failed, or guide is empty, do not overwrite last good guide.
     if retained < args.min_programmes:
