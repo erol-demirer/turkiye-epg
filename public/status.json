@@ -1,6 +1,6 @@
 {
   "iptv_org_collection": {
-    "generated_at_utc": "2026-11-26T08:15:32.926795+00:00",
+    "generated_at_utc": "2026-11-26T21:30:30.555055+00:00",
     "sites": [
       {
         "site": "t",
@@ -70,10 +70,10 @@
     ],
     "proxy_enabled": false
   },
-  "generated_at_utc": "2026-11-26T08:15:33.383845+00:00",
+  "generated_at_utc": "2026-11-26T21:30:30.684785+00:00",
   "total_target_ids": 125,
   "target_ids_with_programmes": 115,
-  "programme_count": 16337,
+  "programme_count": 14110,
   "sources": [
     {
       "source": "tvplus",
@@ -101,7 +101,7 @@
       "channels": 107,
       "programmed_channels": 80,
       "matched_targets": 60,
-      "valid_programmes": 19312
+      "valid_programmes": 19298
     },
     {
       "source": "open-epg-turkey",
@@ -115,9 +115,9 @@
       "source": "epgshare-tr1",
       "ok": true,
       "channels": 178,
-      "programmed_channels": 141,
+      "programmed_channels": 140,
       "matched_targets": 54,
-      "valid_programmes": 15330
+      "valid_programmes": 15301
     },
     {
       "source": "epgshare-tr3",
@@ -130,23 +130,23 @@
   ],
   "coverage": {
     "TRT1.tr": {
-      "programmes": 80,
-      "next_24h": 15,
-      "next_48h": 26,
+      "programmes": 73,
+      "next_24h": 14,
+      "next_48h": 23,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT1.HD.tr": {
-      "programmes": 80,
-      "next_24h": 15,
-      "next_48h": 26,
+      "programmes": 73,
+      "next_24h": 14,
+      "next_48h": 23,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "STAR.TV.HD.tr": {
-      "programmes": 73,
+      "programmes": 66,
       "next_24h": 12,
       "next_48h": 20,
       "sources": [
@@ -154,15 +154,15 @@
       ]
     },
     "ATV.HD.tr": {
-      "programmes": 68,
+      "programmes": 62,
       "next_24h": 13,
-      "next_48h": 24,
+      "next_48h": 23,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "SHOW.TV.HD.tr": {
-      "programmes": 55,
+      "programmes": 51,
       "next_24h": 10,
       "next_48h": 19,
       "sources": [
@@ -170,162 +170,162 @@
       ]
     },
     "KANAL.D.HD.tr": {
-      "programmes": 69,
-      "next_24h": 12,
+      "programmes": 63,
+      "next_24h": 11,
       "next_48h": 23,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "NOW.tr": {
-      "programmes": 75,
+      "programmes": 68,
       "next_24h": 13,
-      "next_48h": 26,
+      "next_48h": 27,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TV8.HD.tr": {
-      "programmes": 72,
+      "programmes": 66,
       "next_24h": 12,
-      "next_48h": 24,
+      "next_48h": 22,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TV8,5.HD.tr": {
-      "programmes": 28,
+      "programmes": 20,
       "next_24h": 14,
-      "next_48h": 25,
+      "next_48h": 18,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "KANAL.7.HD.tr": {
-      "programmes": 89,
+      "programmes": 81,
       "next_24h": 13,
-      "next_48h": 25,
+      "next_48h": 29,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "beIN.SPORTS.HABER.tr": {
-      "programmes": 77,
+      "programmes": 62,
       "next_24h": 25,
-      "next_48h": 45,
+      "next_48h": 51,
       "sources": [
         "epgshare-tr1",
         "open-epg-turkey"
       ]
     },
     "Beinsports.tr": {
-      "programmes": 61,
-      "next_24h": 20,
-      "next_48h": 39,
+      "programmes": 52,
+      "next_24h": 19,
+      "next_48h": 37,
       "sources": [
         "epgshare-tr1",
         "open-epg-turkey"
       ]
     },
     "Beinsports.2.tr": {
-      "programmes": 51,
+      "programmes": 44,
       "next_24h": 14,
-      "next_48h": 28,
+      "next_48h": 29,
       "sources": [
         "epgshare-tr1",
         "open-epg-turkey"
       ]
     },
     "Beinsports.3.tr": {
-      "programmes": 73,
-      "next_24h": 12,
-      "next_48h": 23,
+      "programmes": 65,
+      "next_24h": 13,
+      "next_48h": 27,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "Beinsports.4.tr": {
-      "programmes": 94,
-      "next_24h": 13,
-      "next_48h": 36,
+      "programmes": 86,
+      "next_24h": 24,
+      "next_48h": 44,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "beIN.SPORTS.MAX.1.tr": {
-      "programmes": 19,
-      "next_24h": 12,
-      "next_48h": 17,
+      "programmes": 13,
+      "next_24h": 11,
+      "next_48h": 11,
       "sources": [
         "open-epg-turkey"
       ]
     },
     "beIN.SPORTS.MAX.2.tr": {
-      "programmes": 19,
-      "next_24h": 12,
-      "next_48h": 17,
+      "programmes": 13,
+      "next_24h": 11,
+      "next_48h": 11,
       "sources": [
         "open-epg-turkey"
       ]
     },
     "S.SPORT.tr": {
-      "programmes": 54,
-      "next_24h": 20,
-      "next_48h": 38,
-      "sources": [
-        "epgshare-tr3"
-      ]
-    },
-    "S.SPORT.2.tr": {
-      "programmes": 51,
-      "next_24h": 18,
-      "next_48h": 34,
-      "sources": [
-        "epgshare-tr3"
-      ]
-    },
-    "Bi.Kanal.tr": {
-      "programmes": 48,
-      "next_24h": 18,
+      "programmes": 41,
+      "next_24h": 19,
       "next_48h": 36,
       "sources": [
         "epgshare-tr3"
       ]
     },
+    "S.SPORT.2.tr": {
+      "programmes": 42,
+      "next_24h": 17,
+      "next_48h": 35,
+      "sources": [
+        "epgshare-tr3"
+      ]
+    },
+    "Bi.Kanal.tr": {
+      "programmes": 39,
+      "next_24h": 19,
+      "next_48h": 34,
+      "sources": [
+        "epgshare-tr3"
+      ]
+    },
     "TİVİBU.SPOR.tr": {
-      "programmes": 72,
-      "next_24h": 23,
-      "next_48h": 40,
+      "programmes": 60,
+      "next_24h": 21,
+      "next_48h": 38,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "TİVİBU.SPOR.1.tr": {
-      "programmes": 59,
-      "next_24h": 15,
-      "next_48h": 30,
+      "programmes": 52,
+      "next_24h": 16,
+      "next_48h": 33,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "TİVİBU.SPOR.2.tr": {
-      "programmes": 24,
+      "programmes": 22,
       "next_24h": 6,
-      "next_48h": 11,
+      "next_48h": 13,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "TİVİBU.SPOR.3.tr": {
-      "programmes": 21,
+      "programmes": 19,
       "next_24h": 6,
-      "next_48h": 11,
+      "next_48h": 12,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "TİVİBU.SPOR.4.tr": {
-      "programmes": 19,
+      "programmes": 17,
       "next_24h": 6,
       "next_48h": 11,
       "sources": [
@@ -333,79 +333,79 @@
       ]
     },
     "EUROSPORT.1.HD.tr": {
-      "programmes": 80,
-      "next_24h": 24,
-      "next_48h": 47,
+      "programmes": 67,
+      "next_24h": 23,
+      "next_48h": 44,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "EUROSPORT.2.HD.tr": {
-      "programmes": 82,
-      "next_24h": 25,
-      "next_48h": 49,
+      "programmes": 68,
+      "next_24h": 24,
+      "next_48h": 44,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.SPOR.HD.tr": {
-      "programmes": 49,
+      "programmes": 32,
       "next_24h": 25,
-      "next_48h": 41,
+      "next_48h": 29,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.SPOR.YILDIZ.tr": {
-      "programmes": 89,
-      "next_24h": 38,
-      "next_48h": 75,
+      "programmes": 62,
+      "next_24h": 43,
+      "next_48h": 56,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "A.SPOR.HD.tr": {
-      "programmes": 55,
-      "next_24h": 16,
-      "next_48h": 28,
+      "programmes": 49,
+      "next_24h": 13,
+      "next_48h": 26,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "FB.TV.tr": {
-      "programmes": 195,
+      "programmes": 174,
       "next_24h": 31,
-      "next_48h": 61,
+      "next_48h": 56,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TİVİ6.tr": {
-      "programmes": 44,
+      "programmes": 34,
       "next_24h": 17,
-      "next_48h": 31,
+      "next_48h": 33,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "TV.4.tr": {
-      "programmes": 68,
-      "next_24h": 24,
-      "next_48h": 50,
+      "programmes": 54,
+      "next_24h": 25,
+      "next_48h": 49,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "SİNEMA.TV.2.HD.tr": {
-      "programmes": 36,
-      "next_24h": 14,
-      "next_48h": 26,
+      "programmes": 28,
+      "next_24h": 13,
+      "next_48h": 25,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "SİNEMA.TV.1001.HD.tr": {
-      "programmes": 33,
+      "programmes": 27,
       "next_24h": 12,
       "next_48h": 24,
       "sources": [
@@ -413,16 +413,15 @@
       ]
     },
     "SİNEMA.AİLE.HD.tr": {
-      "programmes": 37,
+      "programmes": 28,
       "next_24h": 13,
-      "next_48h": 26,
+      "next_48h": 25,
       "sources": [
-        "epgshare-tr1",
-        "epgshare-tr3"
+        "epgshare-tr1"
       ]
     },
     "SİNEMA.AİLE.2.HD.tr": {
-      "programmes": 36,
+      "programmes": 29,
       "next_24h": 13,
       "next_48h": 25,
       "sources": [
@@ -431,24 +430,25 @@
       ]
     },
     "SİNEMA.TV.AKSİYON.HD.tr": {
-      "programmes": 35,
+      "programmes": 29,
       "next_24h": 13,
-      "next_48h": 24,
+      "next_48h": 25,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "SİNEMA.AKSİYON.2.HD.tr": {
-      "programmes": 35,
+      "programmes": 29,
       "next_24h": 13,
       "next_48h": 25,
       "sources": [
-        "epgshare-tr1"
+        "epgshare-tr1",
+        "epgshare-tr3"
       ]
     },
     "SİNEMA.KOMEDİ.HD.tr": {
-      "programmes": 36,
-      "next_24h": 14,
+      "programmes": 29,
+      "next_24h": 13,
       "next_48h": 26,
       "sources": [
         "epgshare-tr1",
@@ -456,8 +456,8 @@
       ]
     },
     "SİNEMA.1002.HD.tr": {
-      "programmes": 44,
-      "next_24h": 13,
+      "programmes": 27,
+      "next_24h": 12,
       "next_48h": 24,
       "sources": [
         "epgshare-tr1",
@@ -471,23 +471,23 @@
       "sources": []
     },
     "FX.HD.tr": {
-      "programmes": 64,
-      "next_24h": 24,
-      "next_48h": 35,
+      "programmes": 47,
+      "next_24h": 23,
+      "next_48h": 42,
       "sources": [
         "epgshare-tr1"
       ]
     },
     "TEVE2.HD.tr": {
-      "programmes": 54,
+      "programmes": 47,
       "next_24h": 14,
-      "next_48h": 26,
+      "next_48h": 27,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.HABER.HD.tr": {
-      "programmes": 144,
+      "programmes": 131,
       "next_24h": 23,
       "next_48h": 43,
       "sources": [
@@ -495,55 +495,55 @@
       ]
     },
     "HABERTÜRK.HD.tr": {
-      "programmes": 69,
+      "programmes": 59,
       "next_24h": 17,
-      "next_48h": 34,
-      "sources": [
-        "iptv-epg-tr"
-      ]
-    },
-    "CNN.TÜRK.HD.tr": {
-      "programmes": 223,
-      "next_24h": 61,
-      "next_48h": 119,
-      "sources": [
-        "iptv-epg-tr"
-      ]
-    },
-    "A.HABER.HD.tr": {
-      "programmes": 80,
-      "next_24h": 23,
-      "next_48h": 44,
-      "sources": [
-        "iptv-epg-tr"
-      ]
-    },
-    "TRT.World.HD.tr": {
-      "programmes": 313,
-      "next_24h": 47,
-      "next_48h": 92,
-      "sources": [
-        "iptv-epg-tr"
-      ]
-    },
-    "ÜLKE.TV.HD.tr": {
-      "programmes": 118,
-      "next_24h": 14,
       "next_48h": 33,
       "sources": [
         "iptv-epg-tr"
       ]
     },
+    "CNN.TÜRK.HD.tr": {
+      "programmes": 178,
+      "next_24h": 61,
+      "next_48h": 112,
+      "sources": [
+        "iptv-epg-tr"
+      ]
+    },
+    "A.HABER.HD.tr": {
+      "programmes": 64,
+      "next_24h": 23,
+      "next_48h": 41,
+      "sources": [
+        "iptv-epg-tr"
+      ]
+    },
+    "TRT.World.HD.tr": {
+      "programmes": 290,
+      "next_24h": 46,
+      "next_48h": 97,
+      "sources": [
+        "iptv-epg-tr"
+      ]
+    },
+    "ÜLKE.TV.HD.tr": {
+      "programmes": 108,
+      "next_24h": 15,
+      "next_48h": 36,
+      "sources": [
+        "iptv-epg-tr"
+      ]
+    },
     "NTV.HD.tr": {
-      "programmes": 491,
-      "next_24h": 74,
-      "next_48h": 151,
+      "programmes": 445,
+      "next_24h": 73,
+      "next_48h": 144,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "A2.HD.tr": {
-      "programmes": 45,
+      "programmes": 39,
       "next_24h": 12,
       "next_48h": 23,
       "sources": [
@@ -551,9 +551,9 @@
       ]
     },
     "24.HD.tr": {
-      "programmes": 43,
-      "next_24h": 14,
-      "next_48h": 30,
+      "programmes": 46,
+      "next_24h": 16,
+      "next_48h": 42,
       "sources": [
         "epgshare-tr1",
         "epgshare-tr3",
@@ -561,31 +561,31 @@
       ]
     },
     "360.HD.tr": {
-      "programmes": 74,
+      "programmes": 65,
       "next_24h": 17,
-      "next_48h": 34,
+      "next_48h": 37,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "HABER.GLOBAL.HD.tr": {
-      "programmes": 86,
+      "programmes": 77,
       "next_24h": 14,
-      "next_48h": 27,
+      "next_48h": 24,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TGRT.HABER.HD.tr": {
-      "programmes": 158,
-      "next_24h": 30,
-      "next_48h": 62,
+      "programmes": 137,
+      "next_24h": 29,
+      "next_48h": 65,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TELE1.tr": {
-      "programmes": 182,
+      "programmes": 167,
       "next_24h": 28,
       "next_48h": 55,
       "sources": [
@@ -593,40 +593,40 @@
       ]
     },
     "BLOOMBERG.HT.HD.tr": {
-      "programmes": 132,
-      "next_24h": 36,
-      "next_48h": 74,
+      "programmes": 113,
+      "next_24h": 38,
+      "next_48h": 73,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "FLASH.HABER.tr": {
-      "programmes": 264,
+      "programmes": 209,
       "next_24h": 90,
-      "next_48h": 178,
+      "next_48h": 190,
       "sources": [
         "epgshare-tr3",
         "open-epg-turkey"
       ]
     },
     "TVNET.HD.tr": {
-      "programmes": 263,
-      "next_24h": 38,
-      "next_48h": 78,
+      "programmes": 240,
+      "next_24h": 40,
+      "next_48h": 80,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "BEYAZ.TV.HD.tr": {
-      "programmes": 89,
+      "programmes": 80,
       "next_24h": 15,
-      "next_48h": 27,
+      "next_48h": 29,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "KRT.TV.tr": {
-      "programmes": 68,
+      "programmes": 63,
       "next_24h": 11,
       "next_48h": 22,
       "sources": [
@@ -634,16 +634,16 @@
       ]
     },
     "SÖZCÜ.TV.tr": {
-      "programmes": 33,
+      "programmes": 27,
       "next_24h": 12,
-      "next_48h": 23,
+      "next_48h": 24,
       "sources": [
         "epgshare-tr3",
         "open-epg-turkey"
       ]
     },
     "HALK.TV.tr": {
-      "programmes": 61,
+      "programmes": 56,
       "next_24h": 10,
       "next_48h": 19,
       "sources": [
@@ -651,31 +651,31 @@
       ]
     },
     "TV100.tr": {
-      "programmes": 52,
-      "next_24h": 11,
-      "next_48h": 24,
+      "programmes": 48,
+      "next_24h": 10,
+      "next_48h": 28,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "ULUSAL.KANAL.tr": {
-      "programmes": 30,
+      "programmes": 26,
       "next_24h": 11,
-      "next_48h": 21,
+      "next_48h": 22,
       "sources": [
         "epgshare-tr1"
       ]
     },
     "NATIONAL.GEOGRAPHIC.HD.tr": {
-      "programmes": 134,
+      "programmes": 119,
       "next_24h": 28,
-      "next_48h": 55,
+      "next_48h": 54,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "NATIONAL.GEOGRAPHIC.WILD.HD.tr": {
-      "programmes": 145,
+      "programmes": 129,
       "next_24h": 30,
       "next_48h": 59,
       "sources": [
@@ -683,23 +683,23 @@
       ]
     },
     "DISCOVERY.CHANNEL.HD.tr": {
-      "programmes": 182,
-      "next_24h": 37,
-      "next_48h": 76,
+      "programmes": 161,
+      "next_24h": 39,
+      "next_48h": 73,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.BELGESEL.HD.tr": {
-      "programmes": 230,
-      "next_24h": 37,
+      "programmes": 209,
+      "next_24h": 35,
       "next_48h": 69,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "KABLO.INFO.tr": {
-      "programmes": 15,
+      "programmes": 12,
       "next_24h": 6,
       "next_48h": 11,
       "sources": [
@@ -707,7 +707,7 @@
       ]
     },
     "LOVE.NATURE.HD.tr": {
-      "programmes": 78,
+      "programmes": 63,
       "next_24h": 28,
       "next_48h": 55,
       "sources": [
@@ -715,25 +715,25 @@
       ]
     },
     "TLC.tr": {
-      "programmes": 219,
-      "next_24h": 30,
-      "next_48h": 62,
+      "programmes": 199,
+      "next_24h": 32,
+      "next_48h": 64,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "DMAX.HD.tr": {
-      "programmes": 195,
-      "next_24h": 30,
+      "programmes": 180,
+      "next_24h": 27,
       "next_48h": 60,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "BBC.EARTH.tr": {
-      "programmes": 57,
-      "next_24h": 20,
-      "next_48h": 40,
+      "programmes": 45,
+      "next_24h": 21,
+      "next_48h": 43,
       "sources": [
         "epgshare-tr3",
         "open-epg-turkey"
@@ -746,7 +746,7 @@
       "sources": []
     },
     "TARIM.TV.tr": {
-      "programmes": 18,
+      "programmes": 15,
       "next_24h": 7,
       "next_48h": 13,
       "sources": [
@@ -754,72 +754,72 @@
       ]
     },
     "TARIH.TV.tr": {
-      "programmes": 138,
-      "next_24h": 28,
-      "next_48h": 56,
+      "programmes": 125,
+      "next_24h": 29,
+      "next_48h": 58,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.TÜRK.tr": {
-      "programmes": 151,
+      "programmes": 126,
       "next_24h": 35,
-      "next_48h": 67,
+      "next_48h": 73,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "DİYANET.TV.tr": {
-      "programmes": 190,
-      "next_24h": 35,
-      "next_48h": 79,
+      "programmes": 169,
+      "next_24h": 41,
+      "next_48h": 83,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TRT.ÇOCUK.HD.tr": {
-      "programmes": 329,
+      "programmes": 287,
       "next_24h": 70,
-      "next_48h": 139,
+      "next_48h": 138,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "CARTOON.NETWORK.tr": {
-      "programmes": 823,
+      "programmes": 752,
       "next_24h": 124,
-      "next_48h": 247,
+      "next_48h": 242,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "DISNEY.JUNIOR.tr": {
-      "programmes": 494,
+      "programmes": 441,
       "next_24h": 100,
-      "next_48h": 199,
+      "next_48h": 201,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "MİNİKA.ÇOCUK.tr": {
-      "programmes": 156,
+      "programmes": 133,
       "next_24h": 57,
-      "next_48h": 111,
+      "next_48h": 114,
       "sources": [
         "epgshare-tr1",
         "epgshare-tr3"
       ]
     },
     "Nick.JR.tr": {
-      "programmes": 509,
-      "next_24h": 72,
-      "next_48h": 146,
+      "programmes": 467,
+      "next_24h": 74,
+      "next_48h": 149,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "NICKTOONS.tr": {
-      "programmes": 202,
+      "programmes": 163,
       "next_24h": 71,
       "next_48h": 141,
       "sources": [
@@ -827,15 +827,15 @@
       ]
     },
     "BABYTV.tr": {
-      "programmes": 1790,
-      "next_24h": 366,
-      "next_48h": 737,
+      "programmes": 1588,
+      "next_24h": 369,
+      "next_48h": 736,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "CARTOONITO.tr": {
-      "programmes": 854,
+      "programmes": 785,
       "next_24h": 127,
       "next_48h": 255,
       "sources": [
@@ -843,33 +843,32 @@
       ]
     },
     "TRT.2.HD.tr": {
-      "programmes": 128,
-      "next_24h": 42,
-      "next_48h": 80,
+      "programmes": 103,
+      "next_24h": 40,
+      "next_48h": 70,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "AKİT.TV.HD.tr": {
-      "programmes": 53,
-      "next_24h": 16,
-      "next_48h": 30,
+      "programmes": 28,
+      "next_24h": 15,
+      "next_48h": 27,
       "sources": [
         "epgshare-tr1",
-        "epgshare-tr3",
         "open-epg-turkey"
       ]
     },
     "BENGÜTÜRK.tr": {
-      "programmes": 91,
-      "next_24h": 15,
-      "next_48h": 31,
+      "programmes": 82,
+      "next_24h": 18,
+      "next_48h": 30,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "ÇİFTÇİ.TV.tr": {
-      "programmes": 69,
+      "programmes": 56,
       "next_24h": 25,
       "next_48h": 49,
       "sources": [
@@ -877,15 +876,15 @@
       ]
     },
     "TRT.3.tr": {
-      "programmes": 48,
-      "next_24h": 24,
-      "next_48h": 40,
+      "programmes": 32,
+      "next_24h": 25,
+      "next_48h": 29,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "MİNİKA.GO.tr": {
-      "programmes": 141,
+      "programmes": 111,
       "next_24h": 44,
       "next_48h": 89,
       "sources": [
@@ -894,74 +893,74 @@
       ]
     },
     "EKOTÜRK.HD.tr": {
-      "programmes": 103,
-      "next_24h": 30,
-      "next_48h": 51,
+      "programmes": 54,
+      "next_24h": 29,
+      "next_48h": 52,
       "sources": [
         "epgshare-tr1",
-        "epgshare-tr3",
         "open-epg-turkey"
       ]
     },
     "VAV.TV.tr": {
-      "programmes": 89,
-      "next_24h": 23,
+      "programmes": 78,
+      "next_24h": 22,
       "next_48h": 45,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "MELTEM.TV.tr": {
-      "programmes": 59,
-      "next_24h": 21,
-      "next_48h": 40,
+      "programmes": 45,
+      "next_24h": 20,
+      "next_48h": 39,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "TV5.tr": {
-      "programmes": 327,
-      "next_24h": 114,
-      "next_48h": 224,
+      "programmes": 262,
+      "next_24h": 108,
+      "next_48h": 223,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "SPORTS.TV.HD.tr": {
-      "programmes": 33,
+      "programmes": 26,
       "next_24h": 12,
       "next_48h": 23,
       "sources": [
-        "epgshare-tr1"
+        "epgshare-tr1",
+        "epgshare-tr3"
       ]
     },
     "NICKELODEON.tr": {
-      "programmes": 405,
-      "next_24h": 65,
-      "next_48h": 119,
+      "programmes": 367,
+      "next_24h": 61,
+      "next_48h": 116,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "DA.VINCI.HD.tr": {
-      "programmes": 715,
-      "next_24h": 111,
-      "next_48h": 221,
+      "programmes": 659,
+      "next_24h": 110,
+      "next_48h": 219,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "W-SPORT.tr": {
-      "programmes": 43,
-      "next_24h": 15,
-      "next_48h": 28,
+      "programmes": 33,
+      "next_24h": 14,
+      "next_48h": 29,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "EKOL.TV.tr": {
-      "programmes": 14,
-      "next_24h": 6,
+      "programmes": 11,
+      "next_24h": 5,
       "next_48h": 10,
       "sources": [
         "epgshare-tr3",
@@ -969,23 +968,23 @@
       ]
     },
     "CNBC-E.tr": {
-      "programmes": 91,
+      "programmes": 69,
       "next_24h": 35,
-      "next_48h": 65,
+      "next_48h": 61,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "A.PARA.HD.tr": {
-      "programmes": 111,
-      "next_24h": 30,
-      "next_48h": 64,
+      "programmes": 89,
+      "next_24h": 34,
+      "next_48h": 59,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "VIASAT.HISTORY.HD.tr": {
-      "programmes": 80,
+      "programmes": 66,
       "next_24h": 28,
       "next_48h": 57,
       "sources": [
@@ -993,26 +992,26 @@
       ]
     },
     "HT.SPOR.tr": {
-      "programmes": 168,
-      "next_24h": 44,
-      "next_48h": 83,
+      "programmes": 146,
+      "next_24h": 42,
+      "next_48h": 87,
       "sources": [
         "iptv-epg-tr"
       ]
     },
     "TYT.TÜRK.tr": {
-      "programmes": 43,
+      "programmes": 31,
       "next_24h": 22,
-      "next_48h": 40,
+      "next_48h": 29,
       "sources": [
         "epgshare-tr3",
         "open-epg-turkey"
       ]
     },
     "TRT.DIYANET.COCUK.tr": {
-      "programmes": 236,
+      "programmes": 191,
       "next_24h": 81,
-      "next_48h": 164,
+      "next_48h": 165,
       "sources": [
         "epgshare-tr3"
       ]
@@ -1024,17 +1023,17 @@
       "sources": []
     },
     "HABİTAT.TV.tr": {
-      "programmes": 179,
-      "next_24h": 72,
-      "next_48h": 137,
+      "programmes": 139,
+      "next_24h": 67,
+      "next_48h": 126,
       "sources": [
         "epgshare-tr3"
       ]
     },
     "BEIN.MOVIES.STARS.tr": {
-      "programmes": 45,
-      "next_24h": 22,
-      "next_48h": 40,
+      "programmes": 33,
+      "next_24h": 23,
+      "next_48h": 29,
       "sources": [
         "open-epg-turkey"
       ]
@@ -1046,25 +1045,25 @@
       "sources": []
     },
     "BEIN.MOVIES.TURK.tr": {
-      "programmes": 60,
-      "next_24h": 26,
-      "next_48h": 52,
+      "programmes": 44,
+      "next_24h": 28,
+      "next_48h": 41,
       "sources": [
         "open-epg-turkey"
       ]
     },
     "BEIN.SERIES.1.tr": {
-      "programmes": 93,
+      "programmes": 67,
       "next_24h": 43,
-      "next_48h": 83,
+      "next_48h": 63,
       "sources": [
         "open-epg-turkey"
       ]
     },
     "BEIN.SERIES.2.tr": {
-      "programmes": 112,
+      "programmes": 80,
       "next_24h": 51,
-      "next_48h": 100,
+      "next_48h": 76,
       "sources": [
         "open-epg-turkey"
       ]
@@ -1100,17 +1099,17 @@
       "sources": []
     },
     "BEIN.GURME.tr": {
-      "programmes": 139,
-      "next_24h": 66,
-      "next_48h": 123,
+      "programmes": 97,
+      "next_24h": 67,
+      "next_48h": 92,
       "sources": [
         "open-epg-turkey"
       ]
     },
     "BEIN.IZ.tr": {
-      "programmes": 142,
+      "programmes": 102,
       "next_24h": 67,
-      "next_48h": 127,
+      "next_48h": 96,
       "sources": [
         "open-epg-turkey"
       ]
@@ -1122,9 +1121,9 @@
       "sources": []
     },
     "GZT.TV.tr": {
-      "programmes": 90,
-      "next_24h": 54,
-      "next_48h": 78,
+      "programmes": 63,
+      "next_24h": 51,
+      "next_48h": 51,
       "sources": [
         "iptv-epg-tr"
       ]
